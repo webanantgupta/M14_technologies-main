@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="widget widget-info">
                   {/* <h5 className="widget-title">Call Center</h5> */}
                  <Link className="footer-logo" to="/">
-                    <img class="img-fluid" src="/images/white_logo.png" alt="logo" style={{ height: '130px' }} />
+                    <img className="img-fluid" src="/images/white_logo.png" alt="logo" style={{ height: '130px' }} />
                     {/* <h4 className='gradient-text'>M14 Technologies</h4> */}
                   </Link>
                   {/* <h6 className="title">and get a free estimate</h6> */}
@@ -20,16 +20,16 @@ const Footer = () => {
                 <div className="widget-socail">
                   <ul className="socail-icon">
                     <li>
-                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="#"><i className="fa-brands fa-instagram"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                      <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                      <a href="#"><i className="fa-brands fa-x-twitter"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -122,7 +122,7 @@ const Footer = () => {
               <div className="col-lg-6">
                 <p>
                   <Link className="footer-logo" to="/">
-                    <img class="img-fluid" src="/images/white_logo.png" alt="logo" style={{ height: '90px' }} />
+                    <img className="img-fluid" src="/images/white_logo.png" alt="logo" style={{ height: '90px' }} />
                     <h4 className='gradient-text'>M14 Technologies</h4>
                   </Link>
                 </p>

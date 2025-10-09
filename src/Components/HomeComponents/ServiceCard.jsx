@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Servicesvg from "../svgs/servicesvg"
+import Servicesvg from "../svgs/Servicesvg"
 
 const ServiceCard = ({ title, des, link }) => {
     return (
