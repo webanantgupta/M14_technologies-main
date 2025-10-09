@@ -8,9 +8,10 @@ const Itinfra = () => {
     <div>
       <PageHeader title="It Infra Setup" />
       <div className='itinfra_container'>
-     <Comingsoon/>
-     <CommonBtn  btntxt={"Back To Home"} link={"/"} bg_color="bg_color"/>
-     
+        <Comingsoon />
+        <div style={{display:'flex',justifyContent:'center'}} className='mb-5'>
+          <CommonBtn btntxt={"Back To Home"} link={"/"} bg_color="bg_color" />
+        </div>
       </div>
     </div>
   )

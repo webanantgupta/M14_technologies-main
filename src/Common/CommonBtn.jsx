@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const CommonBtn = ({ btntxt, link }) => {
     return (
         <>
-            <Link className="btn btn-effect" to={link}>
+            <Link className="btn btn-effect " to={link} >
                 <span>{btntxt}</span>
                 <svg
                     width={20}

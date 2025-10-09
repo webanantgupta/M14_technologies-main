@@ -12,7 +12,9 @@ const Health = () => {
 
       </div>
       <div>
-     <CommonBtn btntxt={"Back To Home"} link={"/"}/>
+      <div style={{display:'flex',justifyContent:'center'}} className='mb-5'>
+          <CommonBtn btntxt={"Back To Home"} link={"/"} bg_color="bg_color" />
+        </div>
 
       </div>
     </div>
