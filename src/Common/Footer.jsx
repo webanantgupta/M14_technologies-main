@@ -1,0 +1,143 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const Footer = () => {
+  return (
+    <>
+      <footer className="site-footer footer-dark pb-lg-5 mb-0">
+        <div className="footer-main">
+          <div className="container">
+            <div className="row">
+                <div className="col-xl-3 col-md-12 ms-auto">
+                <div className="widget widget-info">
+                  {/* <h5 className="widget-title">Call Center</h5> */}
+                 <Link className="footer-logo" to="/">
+                    <img class="img-fluid" src="/images/white_logo.png" alt="logo" style={{ height: '130px' }} />
+                    {/* <h4 className='gradient-text'>M14 Technologies</h4> */}
+                  </Link>
+                  {/* <h6 className="title">and get a free estimate</h6> */}
+                </div>
+                <div className="widget-socail">
+                  <ul className="socail-icon">
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            
+              <div className="col-xl-5 col-md-7">
+                <div className="widget">
+                  {/* <h5 className="widget-title">Newsletter</h5> */}
+                  {/* <div className="widget widget-newsletter mb-4 pb-2">
+                    <form className="newsletter-form">
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Enter Your Email"
+                      />
+                      <button type="submit" className="subscribe-btn">
+                        <i className="fa-solid fa-paper-plane" />
+                      </button>
+                    </form>
+                  </div> */}
+                  <div className="widget widget-menu">
+                    <h6 className="widget-title">Quick Links</h6>
+                    <ul className="list-unstyled list-col-3 mb-0">
+                      <li><Link to="/">Home</Link></li>
+                      <li><Link to="/">About us</Link></li>
+                      <li><Link to="/">Service</Link></li>
+                      <li><Link to="/">Products</Link></li>
+                      <li><Link to="/">Contact</Link></li>
+                    </ul>
+                    <br /> <br />
+                    <ul className="list-unstyled list-col-3 mb-0">
+                      <li><Link to="/">Privacy Policy</Link></li>
+                      <li><Link to="/">App Development</Link></li>
+                      <li><Link to="/">Graphic Designer</Link></li>
+                      <li><Link to="/">Digital Marketing</Link></li>
+                      <li><Link to="/">SEO</Link></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-3 col-md-5">
+                <div className="widget widget-address-info">
+                  <h5 className="widget-title">Where To Find Us</h5>
+                  <ul className="address-info-list">
+                    <li>
+                      <i className="icon">
+                        <img
+                          className="img-fluid"
+                          src="images/svg/address-info-contacts.svg"
+                          alt=""
+                        />
+                      </i>
+                      <span className="info">
+                        <span>C-25, Aliganj, Lucknow  </span>  Uttar Pradesh India - 226024
+                      </span>
+                    </li>
+                    <li>
+                      <i className="icon">
+                        <img
+                          className="img-fluid"
+                          src="images/svg/address-info-headphone.svg"
+                          alt=""
+                        />
+                      </i>
+                      <span className="info">
+                        <span>99999999999 </span>Mon-fri 9:00am 6:00pm
+                      </span>
+                    </li>
+                    <li>
+                      <i className="icon">
+                        <img
+                          className="img-fluid"
+                          src="images/svg/address-info-email.svg"
+                          alt=""
+                        />
+                      </i>
+                      <span className="info">
+                        <span>Info@m14technologies.com </span>24x7 online support
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className="footer-copyright">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
+                <p>
+                  <Link className="footer-logo" to="/">
+                    <img class="img-fluid" src="/images/white_logo.png" alt="logo" style={{ height: '90px' }} />
+                    <h4 className='gradient-text'>M14 Technologies</h4>
+                  </Link>
+                </p>
+              </div>
+              <div className="col-lg-12 text-lg-center text-center mb-0">
+                <p className='mb-0'>
+                  Powered By - <Link to="https://onebigbit.com/" target='_blank'>OneBigBit Technologies Private Limited</Link>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> */}
+      </footer>
+    </>
+  )
+}
+
+export default Footer

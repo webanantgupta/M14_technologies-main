@@ -1,0 +1,244 @@
+[
+    {
+        "title": "IT Infrastructure Setup",
+        "slug": "it-infrastructure-setup",
+        "short_description": "We build reliable, scalable, and secure IT infrastructures for your business.",
+        "banner_image": "/images/services/it-infrastructure.jpg",
+        "overview": "At M14 Technologies, we specialize in designing, deploying, and maintaining end-to-end IT infrastructure solutions that power business performance. Whether you are setting up a new office, migrating to the cloud, or upgrading your existing system, we ensure seamless integration, enhanced data security, and optimized performance. Our infrastructure experts follow industry best practices to deliver future-ready solutions that grow with your organization.",
+        "key_features": [
+            "Network setup, configuration, and monitoring",
+            "Server deployment and cloud infrastructure management",
+            "Data backup, recovery, and cybersecurity solutions",
+            "Hardware procurement and installation support",
+            "IT asset and resource management"
+        ],
+        "benefits": [
+            "Improved operational efficiency and reliability",
+            "Enhanced system security and uptime",
+            "Reduced IT costs with optimized resource utilization",
+            "Scalable infrastructure for business growth",
+            "24/7 technical support and monitoring"
+        ],
+        "technologies_used": [
+            "Cisco",
+            "AWS",
+            "Microsoft Azure",
+            "VMware",
+            "Fortinet"
+        ],
+        "cta_text": "Set Up Your IT Infrastructure",
+        "cta_link": "/contact"
+    },
+    {
+        "title": "Website & Software Development",
+        "slug": "website-software-development",
+        "short_description": "We build high-performance websites and custom software tailored to your business goals.",
+        "banner_image": "https://www.shutterstock.com/shutterstock/videos/1081041155/thumb/5.jpg?ip=x480",
+        "overview": "Our Website and Software Development service focuses on crafting user-centric digital experiences that drive growth and engagement. At M14 Technologies, we develop everything from simple websites to complex enterprise applications using modern technologies. Our approach combines creativity, functionality, and performance — ensuring that your product not only looks great but also delivers exceptional user experiences. We work closely with clients throughout the development process, from ideation to deployment, to build solutions that align perfectly with their business goals.",
+        "image": "https://extension.harvard.edu/wp-content/uploads/sites/8/2022/11/how-to-become-a-software-engineer.jpg",
+        "key_features": [
+            "Responsive web design and development",
+            "Custom software and enterprise application development",
+            "E-commerce solutions and CMS platforms",
+            "API development and third-party integrations",
+            "Maintenance, support, and scalability upgrades"
+        ],
+        "benefits": [
+            "Enhanced digital presence and brand value",
+            "Improved user engagement and conversion rates",
+            "Automation of manual processes through custom software",
+            "Scalable and secure architecture for long-term growth",
+            "Continuous support and future-ready technology stack"
+        ],
+        "technologies_used": [
+            "React",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "Next.js",
+            "MySQL"
+        ],
+        "cta_text": "Start Your Project",
+        "cta_link": "/contact"
+    },
+    {
+        "title": "Mixed Reality",
+        "slug": "mixed-reality",
+        "short_description": "We create immersive AR and VR experiences that bring your ideas to life.",
+        "banner_image": "/images/services/mixed-reality.jpg",
+        "overview": "At M14 Technologies, we blend the physical and digital worlds through our innovative Mixed Reality solutions. Our team designs augmented reality (AR) and virtual reality (VR) applications that transform how people learn, work, and interact. From product visualization to simulation-based training, we help businesses across industries create engaging and interactive experiences that enhance communication and decision-making. With the latest MR technologies, we deliver solutions that redefine customer engagement and operational efficiency.",
+        "key_features": [
+            "AR and VR application development",
+            "3D modeling and visualization",
+            "Training and simulation environments",
+            "Interactive marketing and product demos",
+            "Cross-platform MR solutions (Oculus, HoloLens, Android, iOS)"
+        ],
+        "benefits": [
+            "Increased engagement through immersive experiences",
+            "Improved training and learning outcomes",
+            "Enhanced product visualization and customer interaction",
+            "Competitive advantage through innovation",
+            "Scalable solutions across industries like education, healthcare, and retail"
+        ],
+        "technologies_used": [
+            "Unity 3D",
+            "Unreal Engine",
+            "ARCore",
+            "ARKit",
+            "Blender"
+        ],
+        "cta_text": "Create Your MR Experience",
+        "cta_link": "/contact"
+    },
+    {
+        "title": "Mixed Reality",
+        "slug": "mixed-reality",
+        "short_description": "We create immersive AR and VR experiences that bring your ideas to life.",
+        "banner_image": "/images/services/mixed-reality.jpg",
+        "overview": "At M14 Technologies, we blend the physical and digital worlds through our innovative Mixed Reality solutions. Our team designs augmented reality (AR) and virtual reality (VR) applications that transform how people learn, work, and interact. From product visualization to simulation-based training, we help businesses across industries create engaging and interactive experiences that enhance communication and decision-making. With the latest MR technologies, we deliver solutions that redefine customer engagement and operational efficiency.",
+        "key_features": [
+            "AR and VR application development",
+            "3D modeling and visualization",
+            "Training and simulation environments",
+            "Interactive marketing and product demos",
+            "Cross-platform MR solutions (Oculus, HoloLens, Android, iOS)"
+        ],
+        "benefits": [
+            "Increased engagement through immersive experiences",
+            "Improved training and learning outcomes",
+            "Enhanced product visualization and customer interaction",
+            "Competitive advantage through innovation",
+            "Scalable solutions across industries like education, healthcare, and retail"
+        ],
+        "technologies_used": [
+            "Unity 3D",
+            "Unreal Engine",
+            "ARCore",
+            "ARKit",
+            "Blender"
+        ],
+        "cta_text": "Create Your MR Experience",
+        "cta_link": "/contact"
+    },
+    {
+        "title": "Digital Marketing",
+        "slug": "digital-marketing",
+        "short_description": "We help your brand grow through powerful digital marketing strategies and campaigns.",
+        "banner_image": "/images/services/digital-marketing.jpg",
+        "overview": "Our Digital Marketing services empower businesses to stand out in a crowded digital landscape. At M14 Technologies, we offer a complete suite of marketing solutions — from search engine optimization and paid advertising to social media management and content marketing. We focus on measurable results and data-driven strategies that maximize your reach, boost engagement, and drive conversions. Whether you’re launching a new product or building long-term brand awareness, we tailor campaigns to meet your unique goals.",
+        "key_features": [
+            "Search Engine Optimization (SEO) and SEM campaigns",
+            "Social media marketing and ad management",
+            "Content creation and influencer outreach",
+            "Email marketing and automation",
+            "Performance tracking and analytics"
+        ],
+        "benefits": [
+            "Improved online visibility and traffic",
+            "Higher conversion and engagement rates",
+            "Targeted campaigns with measurable ROI",
+            "Stronger brand reputation and awareness",
+            "Data-backed insights for continuous improvement"
+        ],
+        "technologies_used": [
+            "Google Ads",
+            "Facebook Ads",
+            "Instagram",
+            "Canva",
+            "HubSpot"
+        ],
+        "cta_text": "Boost Your Online Presence",
+        "cta_link": "/contact"
+    },
+    {
+        "title": "Management Services",
+        "slug": "management-services",
+        "short_description": "We handle your social and digital platforms with expert management solutions.",
+        "banner_image": "/images/services/management.jpg",
+        "overview": "Our Management Services are designed to help businesses efficiently manage their digital presence while focusing on core operations. We provide social media management (SMM), content scheduling, brand monitoring, and reputation management to ensure consistent communication and engagement across all platforms. M14 Technologies helps you maintain a cohesive brand voice, optimize posting schedules, and build stronger relationships with your audience — saving time and improving overall digital efficiency.",
+        "key_features": [
+            "Social Media Management (SMM)",
+            "Content strategy and scheduling",
+            "Brand monitoring and analytics",
+            "Customer engagement and response management",
+            "Performance insights and growth tracking"
+        ],
+        "benefits": [
+            "Consistent brand image and communication",
+            "Increased audience engagement and trust",
+            "Optimized social media performance",
+            "Better customer relationship management",
+            "Time and cost efficiency for your business"
+        ],
+        "technologies_used": [
+            "Hootsuite",
+            "Buffer",
+            "Meta Business Suite",
+            "Canva",
+            "Google Analytics"
+        ],
+        "cta_text": "Simplify Your Management",
+        "cta_link": "/contact"
+    },
+    {
+        "title": "Platform Optimization",
+        "slug": "platform-optimization",
+        "short_description": "We optimize your website and social media platforms for better performance and reach.",
+        "banner_image": "/images/services/platform-optimization.jpg",
+        "overview": "At M14 Technologies, our Platform Optimization service focuses on maximizing the potential of your digital platforms. From improving website performance and SEO to optimizing social media profiles and content strategies, we help you achieve higher visibility and engagement. Our experts analyze your digital presence, identify gaps, and implement strategies that align with your brand objectives — ensuring every platform works efficiently to support your growth.",
+        "key_features": [
+            "Website performance optimization and SEO",
+            "Social media profile optimization",
+            "User experience (UX) improvement",
+            "Analytics-driven performance enhancement",
+            "Mobile and cross-platform optimization"
+        ],
+        "benefits": [
+            "Faster load times and improved SEO rankings",
+            "Better user engagement and retention",
+            "Optimized content reach across platforms",
+            "Improved conversion rates",
+            "Long-term digital growth and brand impact"
+        ],
+        "technologies_used": [
+            "Google PageSpeed",
+            "Lighthouse",
+            "Ahrefs",
+            "Canva",
+            "Semrush"
+        ],
+        "cta_text": "Optimize Your Platforms",
+        "cta_link": "/contact"
+    },
+    {
+        "title": "IT Consulting & Support",
+        "slug": "it-consulting-support",
+        "short_description": "We provide expert IT consulting and ongoing technical support for your business.",
+        "banner_image": "/images/services/it-consulting.jpg",
+        "overview": "M14 Technologies offers expert IT Consulting and Support services to help businesses make informed technology decisions and ensure seamless operations. We assist in planning IT strategies, conducting system audits, implementing new technologies, and offering 24/7 technical support. Our consulting team aligns IT infrastructure and software systems with your business goals, ensuring reliability, security, and performance at every level.",
+        "key_features": [
+            "Strategic IT consulting and planning",
+            "System analysis and technology audits",
+            "Cloud migration and implementation support",
+            "Technical support and troubleshooting",
+            "Cybersecurity and compliance consulting"
+        ],
+        "benefits": [
+            "Smarter technology investment decisions",
+            "Reduced downtime and enhanced system stability",
+            "Improved operational efficiency and security",
+            "Tailored solutions aligned with business needs",
+            "24/7 expert support and maintenance"
+        ],
+        "technologies_used": [
+            "AWS",
+            "Azure",
+            "Google Cloud",
+            "Microsoft 365",
+            "Cisco"
+        ],
+        "cta_text": "Consult Our Experts",
+        "cta_link": "/contact"
+    }
+]
