@@ -23,8 +23,25 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/about">
-                  About Us
+                  About Us <i className='fa-solid fa-chevron-down'/>
                 </Link>
+                <ul className='submenu'>
+                  <li>
+                    <Link className='nav-link' to="/about/company-overview">
+                    Company Overview
+                    </Link>
+                  </li>
+                   <li>
+                    <Link className='nav-link' to="/about/mission-vision">
+                    Mission & Vision
+                    </Link>
+                  </li>
+                   <li>
+                    <Link className='nav-link' to="/about/achivements">
+                    Achievements
+                    </Link>
+                  </li>
+                </ul>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/services">

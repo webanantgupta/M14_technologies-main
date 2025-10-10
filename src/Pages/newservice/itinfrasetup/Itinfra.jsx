@@ -1,19 +1,23 @@
-import React from 'react'
+
+import CommonBtn from '../../../Common/CommonBtn';
 import PageHeader from '../../../Common/PageHeader'
-import Comingsoon from '../../../Common/Comingsoon'
-import CommonBtn from '../../../Common/CommonBtn'
+import Pagecontent from '../../../Common/Pagecontent'
+import serviceData from "../../../Components/ServicesJson/service.json"
 
 const Itinfra = () => {
+  const service = serviceData[0];
+  // console.log(service);
+  
   return (
     <div>
       <PageHeader title="It Infra Setup" />
-      <div className='itinfra_container'>
-        <Comingsoon />
-        <div style={{display:'flex',justifyContent:'center'}} className='mb-5'>
+      <Pagecontent  service={service} />
+
+      
+        <div className='itinfra_btn'>
           <CommonBtn btntxt={"Back To Home"} link={"/"} bg_color="bg_color" />
         </div>
       </div>
-    </div>
   )
 }
 

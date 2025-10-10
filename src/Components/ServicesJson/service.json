@@ -3,7 +3,7 @@
         "title": "IT Infrastructure Setup",
         "slug": "it-infrastructure-setup",
         "short_description": "We build reliable, scalable, and secure IT infrastructures for your business.",
-        "banner_image": "/images/services/it-infrastructure.jpg",
+        "banner_image": "https://5.imimg.com/data5/SELLER/Default/2025/2/491392964/UT/ML/RX/140514563/it-infrastructure-setup-services-500x500.jpg",
         "overview": "At M14 Technologies, we specialize in designing, deploying, and maintaining end-to-end IT infrastructure solutions that power business performance. Whether you are setting up a new office, migrating to the cloud, or upgrading your existing system, we ensure seamless integration, enhanced data security, and optimized performance. Our infrastructure experts follow industry best practices to deliver future-ready solutions that grow with your organization.",
         "key_features": [
             "Network setup, configuration, and monitoring",
@@ -65,7 +65,7 @@
         "title": "Mixed Reality",
         "slug": "mixed-reality",
         "short_description": "We create immersive AR and VR experiences that bring your ideas to life.",
-        "banner_image": "/images/services/mixed-reality.jpg",
+        "banner_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUDZF9jRZwcENaFRNMZS7IDm_QjB35B4GydA&s",
         "overview": "At M14 Technologies, we blend the physical and digital worlds through our innovative Mixed Reality solutions. Our team designs augmented reality (AR) and virtual reality (VR) applications that transform how people learn, work, and interact. From product visualization to simulation-based training, we help businesses across industries create engaging and interactive experiences that enhance communication and decision-making. With the latest MR technologies, we deliver solutions that redefine customer engagement and operational efficiency.",
         "key_features": [
             "AR and VR application development",
@@ -92,7 +92,7 @@
         "cta_link": "/contact"
     },
     {
-        "title": "Mixed Reality",
+        "title": "Digital ",
         "slug": "mixed-reality",
         "short_description": "We create immersive AR and VR experiences that bring your ideas to life.",
         "banner_image": "/images/services/mixed-reality.jpg",
@@ -125,7 +125,7 @@
         "title": "Digital Marketing",
         "slug": "digital-marketing",
         "short_description": "We help your brand grow through powerful digital marketing strategies and campaigns.",
-        "banner_image": "/images/services/digital-marketing.jpg",
+        "banner_image": "https://www.monash.edu/__data/assets/image/0006/3997950/illustration-digital-marketing.jpg",
         "overview": "Our Digital Marketing services empower businesses to stand out in a crowded digital landscape. At M14 Technologies, we offer a complete suite of marketing solutions — from search engine optimization and paid advertising to social media management and content marketing. We focus on measurable results and data-driven strategies that maximize your reach, boost engagement, and drive conversions. Whether you’re launching a new product or building long-term brand awareness, we tailor campaigns to meet your unique goals.",
         "key_features": [
             "Search Engine Optimization (SEO) and SEM campaigns",
@@ -155,7 +155,7 @@
         "title": "Management Services",
         "slug": "management-services",
         "short_description": "We handle your social and digital platforms with expert management solutions.",
-        "banner_image": "/images/services/management.jpg",
+        "banner_image": "https://www.marketing91.com/wp-content/uploads/2019/01/Types-of-Business-Services-1.jpg",
         "overview": "Our Management Services are designed to help businesses efficiently manage their digital presence while focusing on core operations. We provide social media management (SMM), content scheduling, brand monitoring, and reputation management to ensure consistent communication and engagement across all platforms. M14 Technologies helps you maintain a cohesive brand voice, optimize posting schedules, and build stronger relationships with your audience — saving time and improving overall digital efficiency.",
         "key_features": [
             "Social Media Management (SMM)",
@@ -185,7 +185,7 @@
         "title": "Platform Optimization",
         "slug": "platform-optimization",
         "short_description": "We optimize your website and social media platforms for better performance and reach.",
-        "banner_image": "/images/services/platform-optimization.jpg",
+        "banner_image": "https://hystax.com/wp-content/uploads/2024/01/Success-stories-cloud-optimization-Google-Cloud-Platform.png",
         "overview": "At M14 Technologies, our Platform Optimization service focuses on maximizing the potential of your digital platforms. From improving website performance and SEO to optimizing social media profiles and content strategies, we help you achieve higher visibility and engagement. Our experts analyze your digital presence, identify gaps, and implement strategies that align with your brand objectives — ensuring every platform works efficiently to support your growth.",
         "key_features": [
             "Website performance optimization and SEO",
@@ -215,7 +215,7 @@
         "title": "IT Consulting & Support",
         "slug": "it-consulting-support",
         "short_description": "We provide expert IT consulting and ongoing technical support for your business.",
-        "banner_image": "/images/services/it-consulting.jpg",
+        "banner_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfhGZBxrDCzv5GdPUJHEjMkUm3McBaRBZMqg&s",
         "overview": "M14 Technologies offers expert IT Consulting and Support services to help businesses make informed technology decisions and ensure seamless operations. We assist in planning IT strategies, conducting system audits, implementing new technologies, and offering 24/7 technical support. Our consulting team aligns IT infrastructure and software systems with your business goals, ensuring reliability, security, and performance at every level.",
         "key_features": [
             "Strategic IT consulting and planning",

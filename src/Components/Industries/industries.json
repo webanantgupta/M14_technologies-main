@@ -1,0 +1,124 @@
+ [
+    {
+  "title": "Education Technology Solutions",
+  "slug": "education-technology-solutions",
+  "short_description": "Empowering institutions with smart, scalable, and engaging digital learning solutions.",
+  "banner_image": "/images/services/education-tech.jpg",
+  "overview": "M14 Technologies delivers innovative Education Technology (EdTech) solutions to schools, colleges, and corporate learning environments. We design and develop Learning Management Systems (LMS), virtual classrooms, and AI-powered personalized learning platforms. Our goal is to make education more accessible, interactive, and data-driven, supporting educators and students alike.",
+  "key_features": [
+    "Custom Learning Management System (LMS) development",
+    "AI-driven personalized learning experiences",
+    "E-learning platform integration and maintenance",
+    "Student performance analytics and reporting dashboards",
+    "Virtual classroom and remote learning setup"
+  ],
+  "benefits": [
+    "Enhanced learner engagement and accessibility",
+    "Data-backed insights for educators and administrators",
+    "Reduced operational costs through automation",
+    "Secure and scalable cloud-based infrastructure",
+    "Improved outcomes through personalized education tools"
+  ],
+  "technologies_used": [
+    "Moodle",
+    "React",
+    "Node.js",
+    "AWS Educate",
+    "Google Classroom APIs"
+  ],
+  "cta_text": "Empower Learning Today",
+  "cta_link": "/contact"
+},
+{
+  "title": "Finance & Banking Solutions",
+  "slug": "finance-banking-solutions",
+  "short_description": "Secure, scalable, and compliant digital solutions for banks and financial institutions.",
+  "banner_image": "/images/services/finance.jpg",
+  "overview": "M14 Technologies provides end-to-end financial technology solutions that help businesses modernize operations, enhance security, and improve customer trust. From digital payment systems to AI-powered risk analysis, our FinTech solutions meet industry compliance standards while driving innovation in finance management.",
+  "key_features": [
+    "Custom financial software and app development",
+    "Secure digital payment gateway integration",
+    "Blockchain and cryptocurrency consulting",
+    "AI-based fraud detection and risk management",
+    "Regulatory compliance and audit support"
+  ],
+  "benefits": [
+    "Enhanced data security and fraud prevention",
+    "Faster, more efficient financial transactions",
+    "Greater transparency through blockchain integration",
+    "Improved customer experience and retention",
+    "Compliance with global financial regulations"
+  ],
+  "technologies_used": [
+    "Python",
+    "Blockchain",
+    "AWS Security",
+    "Stripe API",
+    "PostgreSQL"
+  ],
+  "cta_text": "Modernize Your Finance Operations",
+  "cta_link": "/contact"
+},
+{
+  "title": "Healthcare IT Solutions",
+  "slug": "healthcare-it-solutions",
+  "short_description": "Digital transformation services that enhance patient care, data security, and operational efficiency.",
+  "banner_image": "/images/services/healthcare.jpg",
+  "overview": "M14 Technologies partners with healthcare providers to implement technology solutions that improve patient outcomes and streamline clinical workflows. From Electronic Health Records (EHR) systems to telemedicine platforms and HIPAA-compliant data management, we help medical organizations leverage technology safely and effectively.",
+  "key_features": [
+    "Electronic Health Record (EHR) system integration",
+    "Telemedicine and remote consultation platforms",
+    "HIPAA-compliant data storage and access management",
+    "IoT-enabled patient monitoring systems",
+    "AI-powered diagnostics and predictive analytics"
+  ],
+  "benefits": [
+    "Improved patient experience and care delivery",
+    "Enhanced data security and regulatory compliance",
+    "Increased operational efficiency for medical staff",
+    "Accurate decision-making with real-time analytics",
+    "Reduced administrative burden and paperwork"
+  ],
+  "technologies_used": [
+    "FHIR APIs",
+    "AWS HealthLake",
+    "Azure Health Data Services",
+    "React Native",
+    "TensorFlow"
+  ],
+  "cta_text": "Transform Healthcare with Technology",
+  "cta_link": "/contact"
+},
+{
+  "title": "Retail & E-Commerce Solutions",
+  "slug": "retail-ecommerce-solutions",
+  "short_description": "Driving retail growth through intelligent digital transformation and omnichannel experiences.",
+  "banner_image": "/images/services/retail.jpg",
+  "overview": "M14 Technologies helps retail and e-commerce businesses enhance customer engagement, optimize supply chains, and boost sales with cutting-edge digital solutions. From custom e-commerce platforms to AI-powered recommendation systems and inventory automation, we deliver technology that keeps you ahead in a competitive marketplace.",
+  "key_features": [
+    "Custom e-commerce website and app development",
+    "AI-based recommendation and personalization engines",
+    "Inventory and order management automation",
+    "Omnichannel retail integration (online and offline)",
+    "Data analytics and customer insights dashboards"
+  ],
+  "benefits": [
+    "Increased sales through personalized shopping experiences",
+    "Better inventory control and cost efficiency",
+    "Enhanced customer loyalty with omnichannel engagement",
+    "Scalable platforms to handle high traffic and transactions",
+    "Data-driven marketing and business strategies"
+  ],
+  "technologies_used": [
+    "Shopify",
+    "Next.js",
+    "Node.js",
+    "MongoDB",
+    "Google Analytics"
+  ],
+  "cta_text": "Boost Your Retail Growth",
+  "cta_link": "/contact"
+}
+
+
+]

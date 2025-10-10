@@ -10442,9 +10442,47 @@ padding: 90px;
 }
 
 
+.management_btn{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 20px;
+}
 
-/* .btn{
-margin-left: 680px;
-margin-bottom: 20px;
 
-} */
+.itinfra_btn{
+  display: flex;
+       justify-content: center;
+       margin-bottom: 20px;
+}
+
+
+.itconsulting_btn{
+  display: flex;
+       justify-content: center;
+       margin-bottom: 20px;
+}
+
+
+.digital_btn{
+  display: flex;
+       justify-content: center;
+       margin-bottom: 20px;
+}
+
+.platform_btn{
+  display: flex;
+       justify-content: center;
+       margin-bottom: 20px;
+}
+
+.mixed_btn{
+  display: flex;
+       justify-content: center;
+       margin-bottom: 20px;
+}
+
+.website_btn{
+  display: flex;
+       justify-content: center;
+       margin-bottom: 20px;
+}
