@@ -11,12 +11,7 @@ const Itinfra = () => {
   return (
     <div>
       <PageHeader title="It Infra Setup" />
-      <Pagecontent  service={service} />
-
-      
-        <div className='itinfra_btn'>
-          <CommonBtn btntxt={"Back To Home"} link={"/"} bg_color="bg_color" />
-        </div>
+      <Pagecontent service={service} />
       </div>
   )
 }

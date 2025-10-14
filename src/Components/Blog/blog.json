@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "How to Integrate Marketing Tools into Your Design",
+    "category": "Marketing",
+    "date": "December 12, 2023",
+    "image": "/images/blog/01.jpg",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "Top 10 UX Trends That Will Dominate 2025",
+    "category": "Design",
+    "date": "March 3, 2025",
+    "image": "/images/blog/02.jpg",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Boost Your Website Speed Using Modern Tools",
+    "category": "Development",
+    "date": "January 20, 2025",
+    "image": "/images/blog/03.jpg",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "Creating Engaging Content for Social Media Campaigns",
+    "category": "Content Marketing",
+    "date": "April 17, 2025",
+    "image": "/images/blog/04.jpg",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "title": "The Future of AI in Web Design",
+    "category": "Technology",
+    "date": "July 1, 2025",
+    "image": "/images/blog/05.jpg",
+    "link": "#"
+  }
+]
+

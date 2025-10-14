@@ -34,7 +34,7 @@ const AboutUs = () => {
                                         We are a passionate team of developers, designers, and problem-solvers focused on building modern, scalable, and secure digital solutions. With a deep understanding of technology and business needs, we work closely with clients to transform ideas into intelligent products — whether it's a custom web app, a mobile platform, or a cloud-based system.
                                     </p>
                                     <div className="d-flex justify-content-center mt-5 ms-sm-5 ms-0">
-                                        <CommonBtn btntxt="About Us" />
+                                        <CommonBtn btntxt="About Us" link="/about"/>
                                     </div>
                                 </div>
                             </div>

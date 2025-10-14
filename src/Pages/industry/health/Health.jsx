@@ -1,22 +1,16 @@
-
+import industryData from "../../../Components/Industries/industries.json"
 import PageHeader from '../../../Common/PageHeader';
-import Comingsoon from '../../../Common/Comingsoon';
-import CommonBtn from '../../../Common/CommonBtn';
+import Pagecontent from '../../../Common/Pagecontent';
 
 const Health = () => {
+
+  const industry = industryData[2];
+
+
   return (
     <div>
       <PageHeader title={"Healthcare"} />
-      <div>
-        <Comingsoon />
-
-      </div>
-      <div>
-      <div style={{display:'flex',justifyContent:'center'}} className='mb-5'>
-          <CommonBtn btntxt={"Back To Home"} link={"/"} bg_color="bg_color" />
-        </div>
-
-      </div>
+        <Pagecontent service={industry}/>
     </div>
 
   )

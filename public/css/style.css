@@ -4775,7 +4775,8 @@ form .form-control {
   background: transparent;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   color: #D4D6D7;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-top: 50px;
 }
 
 form .form-control::-ms-input-placeholder {
@@ -4798,7 +4799,7 @@ form .form-control:active {
 }
 
 form textarea.form-control {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 form textarea.form-control.pre-textarea {
@@ -5121,7 +5122,7 @@ form.form-dark .form-control:focus {
   display: flex;
   gap: 10px;
   flex-direction: column;
-  list-style-type:square !important;
+  list-style-type: square !important;
 }
 
 .list-wrapper .list li {
@@ -5188,7 +5189,7 @@ form.form-dark .form-control:focus {
   display: flex;
   align-items: flex-end;
   padding: 45px;
-  min-height: 410px;
+  /* min-height: 410px; */
   border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
@@ -5862,10 +5863,14 @@ form.form-dark .form-control:focus {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0 50px;
+  gap: 0 40px;
   height: 100%;
   list-style-type: none;
   /* Header Submenu */
+}
+
+.list-label {
+  color: #fff !important;
 }
 
 .header-default .site-menu .main-menu .nav-item {
@@ -10406,83 +10411,186 @@ form.form-dark .form-control:focus {
 
 
 /* new css from here */
-body{
+body {
   background: #fff !important;
 }
 
-.infra_container{
+.infra_container {
   background-color: black;
   color: white;
   margin-top: 20px;
 }
+
 /* 
 .infra_container h2{
   margin-top: 20px;
 } */
 
 
-.comingsoon_container{
-background-color: white !important;
-color: black;
-padding: 90px;
+.comingsoon_container {
+  background-color: white !important;
+  color: black;
+  padding: 90px;
 }
 
-.comingsoon_container h2{
-   /* background-color: black; */
-   padding: 20px;
-   /* color: white; */
-   text-align: center;
+.comingsoon_container h2 {
+  /* background-color: black; */
+  padding: 20px;
+  /* color: white; */
+  text-align: center;
 }
 
-.comingsoon_container p{
-   /* background-color: black; */
-   padding: 20px;
-   /* color: white; */
-   text-align: center;
-}
-
-
-.management_btn{
-       display: flex;
-       justify-content: center;
-       margin-bottom: 20px;
+.comingsoon_container p {
+  /* background-color: black; */
+  padding: 20px;
+  /* color: white; */
+  text-align: center;
 }
 
 
-.itinfra_btn{
+.management_btn {
   display: flex;
-       justify-content: center;
-       margin-bottom: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 
-.itconsulting_btn{
+.itinfra_btn {
   display: flex;
-       justify-content: center;
-       margin-bottom: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 
-.digital_btn{
+.itconsulting_btn {
   display: flex;
-       justify-content: center;
-       margin-bottom: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.platform_btn{
+
+.digital_btn {
   display: flex;
-       justify-content: center;
-       margin-bottom: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.mixed_btn{
+.platform_btn {
   display: flex;
-       justify-content: center;
-       margin-bottom: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.website_btn{
+.mixed_btn {
   display: flex;
-       justify-content: center;
-       margin-bottom: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.website_btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.education_btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.finance_btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.health_btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.retail_btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+/* styling the component here  */
+.page_container {
+  padding: 40px;
+
+}
+
+
+@media (max-width:768px) {
+  .page_flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .page_image img {
+    margin: auto;
+  }
+
+  .page_container {
+    padding: 20px;
+  }
+
+  .page_image {
+    margin-left: 0px;
+  }
+}
+
+
+.page_flex {
+  display: flex;
+  /* background-color: grey; */
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.page_title,
+.page_image {
+  flex: 1;
+}
+
+@media (min-width:768px)and (max-width:1600px) {
+
+  .page_image {
+    margin-left: 200px;
+
+  }
+}
+
+.page_image img {
+  height: 500px;
+  width: 500px;
+  object-fit: contain;
+}
+
+.page_image img {
+  margin: auto;
+}
+
+
+.blog_container {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  gap: 20px;
+  padding: 40px;
+}
+
+.error{
+  color: red;
+
 }

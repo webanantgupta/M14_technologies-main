@@ -11,10 +11,6 @@ const service = serviceData[5];
     <div>
       <PageHeader title={"Management Services"}/>
        <Pagecontent service={service} />
-       <div className="management_btn">
-       <CommonBtn btntxt={"Back To Home"} link={"/"}/>
-
-       </div>
     </div>
     
   )

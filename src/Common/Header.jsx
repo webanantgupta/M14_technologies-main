@@ -1,21 +1,26 @@
-import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+
+
+
+
+
+
   return (
     <>
-
+          
       <header className="header header-default header-sticky header-absolute">
-        <div className="header-inner">
-          <div className="site-logo">
+        <div className="header-inner" >
+          <div className="site-logo" style={{ width: "20%" }}>
             <Link className="navbar-brand" to="/">
-              <img class="img-fluid" src="/images/white_logo.png" alt="logo" style={{ height: '90px' }} />
+              <img className="img-fluid" src="/images/white_logo.png" alt="logo" style={{ height: '90px', flexGrow: 1  }} />
               {/* <h4 className='gradient-text'>M14 Technologies</h4> */}
             </Link>
           </div>
 
-          <div className="site-menu d-none d-xl-block">
-            <ul className="main-menu">
+          <div className="site-menu d-none d-xl-block" style={{ width: "60%"  }} >
+            <ul className="main-menu p-0" >
               <li className="nav-item active">
                 <Link className="nav-link" to="/">
                   Home
@@ -23,25 +28,25 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/about">
-                  About Us <i className='fa-solid fa-chevron-down'/>
+                  About Us 
                 </Link>
-                <ul className='submenu'>
+                {/* <ul className='submenu'>
                   <li>
                     <Link className='nav-link' to="/about/company-overview">
-                    Company Overview
+                      Company Overview
                     </Link>
                   </li>
-                   <li>
+                  <li>
                     <Link className='nav-link' to="/about/mission-vision">
-                    Mission & Vision
+                      Mission & Vision
                     </Link>
                   </li>
-                   <li>
+                  <li>
                     <Link className='nav-link' to="/about/achivements">
-                    Achievements
+                      Achievements
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/services">
@@ -116,7 +121,7 @@ const Header = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/blog">
                   Blog
 
                 </Link>
@@ -146,9 +151,9 @@ const Header = () => {
             </ul>
           </div>
 
-          <div className="site-action d-none d-xl-block">
+          <div className="site-action d-none d-xl-block" style={{ width: "20x"  }}>
             <div className="action-hamburger">
-              <Link to={''} className='requestBTn'>Request A Quote</Link>
+              <Link to="/contact" className='requestBTn'>Request A Quote</Link>
               {/* <a
                 className="hamburger"
                 href="#"

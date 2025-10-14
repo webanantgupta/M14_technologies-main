@@ -15,6 +15,9 @@ import Education from '../Pages/industry/education/Education'
 import Health from '../Pages/industry/health/Health'
 import Retail from '../Pages/industry/retail/Retail'
 import Finance from '../Pages/industry/finance/Finance'
+import Blogcontent from '../Common/Blogcontent'
+import Blog from '../Pages/blog/Blog'
+import { Toaster } from 'react-hot-toast'
 
 
 const AllRoutes = () => {
@@ -22,29 +25,30 @@ const AllRoutes = () => {
         <>
             <div>
                 <>
-                 <Routes>
-                    <Route path='/' element={<Home />} />
-                    <Route path='/about' element={<Aboutus />} />
-                    <Route path='/services' element={<Allservices />} />
-                    {/* <Route path='/services/:type' element={<ServicesDetails />} /> */}
-                    <Route path='/services/it-infrastructure-setup' element={<Itinfra/>} />
-                    <Route path='/services/website-software-development' element={<Website/>}/>
-                    <Route path='/services/mixed-reality' element={<Mixed/>}/>
-                    <Route path='/services/digital-marketing' element={<Digital/>}/>
-                    <Route path='/services/management-service' element={<Management/>}/>
-                    <Route path='/services/platform-optimization' element={<Platform/>}/>
-                    <Route path='/services/it-consulting' element={<Itconsulting/>}/>
-                    <Route path='/serve/education' element={<Education/>}/>
-                    <Route path='/serve/health-care' element={<Health/>}/>
-                    <Route path='/serve/retail' element={<Retail/>}/>
-                    <Route path='/serve/finance' element={<Finance/>}/>
-
-                    <Route path='/contact' element={<ContactUs />} />
-                    <Route path="/mixed" element={<Mixed/>}/>
-                </Routes>
+                <Toaster  position='top-center'/>
+                    <Routes>
+                        <Route path='/' element={<Home />} />
+                        <Route path='/about' element={<Aboutus />} />
+                        <Route path='/services' element={<Allservices />} />
+                        {/* <Route path='/services/:type' element={<ServicesDetails />} /> */}
+                        <Route path='/services/it-infrastructure-setup' element={<Itinfra />} />
+                        <Route path='/services/website-software-development' element={<Website />} />
+                        <Route path='/services/mixed-reality' element={<Mixed />} />
+                        <Route path='/services/digital-marketing' element={<Digital />} />
+                        <Route path='/services/management-service' element={<Management />} />
+                        <Route path='/services/platform-optimization' element={<Platform />} />
+                        <Route path='/services/it-consulting' element={<Itconsulting />} />
+                        <Route path='/serve/education' element={<Education />} />
+                        <Route path='/serve/health-care' element={<Health />} />
+                        <Route path='/serve/retail' element={<Retail />} />
+                        <Route path='/serve/finance' element={<Finance />} />
+                        <Route path='/blog' element={<Blog/>}/>
+                        <Route path='/contact' element={<ContactUs />} />
+                        <Route path="/mixed" element={<Mixed />} />
+                    </Routes>
                 </>
 
-               
+
                 <Footer />
             </div>
         </>

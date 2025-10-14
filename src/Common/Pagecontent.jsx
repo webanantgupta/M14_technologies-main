@@ -1,17 +1,21 @@
 
 const Pagecontent = ({ service }) => {
-console.log(service);
-
+    console.log(service);
 
     return (
         <div className='page_container'>
             {/* image here with title */}
             <div className='page_banner'>
-                <img src={service.banner_image} alt={service.title} />
-                <h2>{service.title}</h2>
-                <div>
-                    <h3>Overview</h3>
-                    <p>{service.overview}</p>
+
+                <div className="page_flex">
+                    <div className="page_title">
+                        <h2>{service.title}</h2>
+                        <p>{service.overview}</p>
+                    </div>
+
+                    <div className="page_image">
+                        <img src={service.banner_image} alt={service.title} />
+                    </div>
                 </div>
 
             </div>
@@ -20,13 +24,13 @@ console.log(service);
             <section className='keyfeatures_container'>
                 <div>
                     <h2>{service.title}</h2>
-                <ul>
-                    {service.key_features.map((obj,index)=>{
-                         return <li key={index}>
-                            {obj}
-                         </li>
-                    })}
-                </ul>
+                    <ul>
+                        {service.key_features.map((obj, index) => {
+                            return <li key={index}>
+                                {obj}
+                            </li>
+                        })}
+                    </ul>
                 </div>
 
             </section>
@@ -37,7 +41,7 @@ console.log(service);
                 <div>
                     <h2>{service.title}</h2>
                     <ul>
-                        {service.benefits.map((obj,index)=>{
+                        {service.benefits.map((obj, index) => {
                             return <li key={index}>
                                 {obj}
                             </li>
@@ -52,7 +56,7 @@ console.log(service);
                 <div>
                     <h2>{service.title}</h2>
                     <ul>
-                        {service.technologies_used.map((obj,index)=>{
+                        {service.technologies_used.map((obj, index) => {
                             return <li key={index}>
                                 {obj}
                             </li>

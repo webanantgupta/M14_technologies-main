@@ -11,10 +11,6 @@ const service = serviceData[2];
 <div>
   <PageHeader title={"Mixed Reality"}/>
          <Pagecontent  service={service}/>
-
-         <div className="mixed_btn">
-          <CommonBtn btntxt={"Back To Home"} link={"/"}/>
-         </div>
 </div>
 
     

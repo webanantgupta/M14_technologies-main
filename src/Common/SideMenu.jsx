@@ -12,7 +12,7 @@ const SideMenu = () => {
       >
         <div className="offcanvas-header">
           <Link id="menuOffcanvasLabel" className="navbar-brand" to="/">
-           <img class="img-fluid" src="/images/white_logo.png" alt="logo" />
+           <img className="img-fluid" src="/images/white_logo.png" alt="logo" />
           </Link>
           <button
             type="button"

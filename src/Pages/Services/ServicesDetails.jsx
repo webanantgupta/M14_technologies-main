@@ -246,7 +246,7 @@ const ServicesDetails = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-4 mt-lg-5 pt-lg-2">
+                                    <div className="col-4 mt-lg-5 pt-lg-2">
                                         <img
                                             className="img-fluid"
                                             src="/images/service/service-single-02.jpg"
