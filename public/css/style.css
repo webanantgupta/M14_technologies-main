@@ -5838,7 +5838,7 @@ form.form-dark .form-control:focus {
 }
 
 .header-default.header-absolute {
-  position: absolute;
+  position: sticky;
   left: 0;
   background: #000;
 }
@@ -10528,23 +10528,36 @@ body {
 }
 
 
-@media (max-width:768px) {
+@media (max-width:1000px) {
   .page_flex {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
-  .page_image img {
-    margin: auto;
+  .page_image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .page_image img{
+  height: 350px;
+  width: 450px;
   }
 
   .page_container {
     padding: 20px;
   }
 
-  .page_image {
-    margin-left: 0px;
+  
+}
+@media (max-width:500px){
+  .page_image img{
+    height: 250px;
+    width: 350px;
   }
 }
 
@@ -10555,8 +10568,6 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  padding: 20px;
-  margin: 20px 0px;
 }
 
 .page_title,
@@ -10564,19 +10575,15 @@ body {
   flex: 1;
 }
 
-@media (min-width:768px)and (max-width:1600px) {
 
-  .page_image {
-    margin-left: 200px;
-
-  }
-}
-
+@media (min-width:1001px) and (max-width:1600px){
 .page_image img {
   height: 500px;
-  width: 500px;
+  width: 600px;
   object-fit: contain;
 }
+}
+
 
 .page_image img {
   margin: auto;
@@ -10592,5 +10599,29 @@ body {
 
 .error{
   color: red;
+}
 
+/* view blog CSS here */
+
+.viewblog_container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  /* background-color: #0072ff; */
+}
+
+.viewblog_image img{
+  height: 400px;
+  width: 600px;
+}
+
+.viewblog_title{
+  flex:1;
+  /* background-color: blanchedalmond; */
+}
+
+.viewblog_image{
+  flex: 1;
+  /* background-color: aquamarine; */
 }

@@ -4,11 +4,11 @@ import MarqueeItem from './MarqueeItem';
 const ServicesInfo = () => {
     const items = [
         { icon: "images/client-logo/brand-icon1.png", title: "Website Development" },
-        { icon: "images/client-logo/brand-icon2.png", title: "UI/UX Design" },
+        // { icon: "images/client-logo/brand-icon2.png", title: "UI/UX Design" },
         { icon: "images/client-logo/brand-icon3.png", title: "App Development" },
         { icon: "images/client-logo/brand-icon5.png", title: "Digital Solution" },
         { icon: "images/client-logo/brand-icon1.png", title: "Website Development" },
-        { icon: "images/client-logo/brand-icon2.png", title: "UI/UX Design" },
+        // { icon: "images/client-logo/brand-icon2.png", title: "UI/UX Design" },
         { icon: "images/client-logo/brand-icon3.png", title: "App Development" },
         { icon: "images/client-logo/brand-icon5.png", title: "Digital Solution" },
     ];

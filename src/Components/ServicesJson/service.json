@@ -5,6 +5,7 @@
         "short_description": "We build reliable, scalable, and secure IT infrastructures for your business.",
         "banner_image": "https://5.imimg.com/data5/SELLER/Default/2025/2/491392964/UT/ML/RX/140514563/it-infrastructure-setup-services-500x500.jpg",
         "overview": "At M14 Technologies, we specialize in designing, deploying, and maintaining end-to-end IT infrastructure solutions that power business performance. Whether you are setting up a new office, migrating to the cloud, or upgrading your existing system, we ensure seamless integration, enhanced data security, and optimized performance. Our infrastructure experts follow industry best practices to deliver future-ready solutions that grow with your organization.",
+        "key_features_title": "Key Features",
         "key_features": [
             "Network setup, configuration, and monitoring",
             "Server deployment and cloud infrastructure management",
@@ -12,6 +13,7 @@
             "Hardware procurement and installation support",
             "IT asset and resource management"
         ],
+        "benefits_title": "Benefits",
         "benefits": [
             "Improved operational efficiency and reliability",
             "Enhanced system security and uptime",
@@ -19,6 +21,7 @@
             "Scalable infrastructure for business growth",
             "24/7 technical support and monitoring"
         ],
+        "technologies_used_title": "Technologies We Use:",
         "technologies_used": [
             "Cisco",
             "AWS",
@@ -34,8 +37,9 @@
         "slug": "website-software-development",
         "short_description": "We build high-performance websites and custom software tailored to your business goals.",
         "banner_image": "https://www.shutterstock.com/shutterstock/videos/1081041155/thumb/5.jpg?ip=x480",
-        "overview": "Our Website and Software Development service focuses on crafting user-centric digital experiences that drive growth and engagement. At M14 Technologies, we develop everything from simple websites to complex enterprise applications using modern technologies. Our approach combines creativity, functionality, and performance — ensuring that your product not only looks great but also delivers exceptional user experiences. We work closely with clients throughout the development process, from ideation to deployment, to build solutions that align perfectly with their business goals.",
+        "overview": "We develop bespoke software solutions meticulously tailored to your unique requirements, providing innovative and dependable applications from initial concept to deployment, all aimed at driving tour business success.Our approach combines creativity, functionality, and performance — ensuring that your product not only looks great but also delivers exceptional user experiences. We work closely with clients throughout the development process, from ideation to deployment, to build solutions that align perfectly with their business goals.",
         "image": "https://extension.harvard.edu/wp-content/uploads/sites/8/2022/11/how-to-become-a-software-engineer.jpg",
+        "key_features_title": "Key Features",
         "key_features": [
             "Responsive web design and development",
             "Custom software and enterprise application development",
@@ -43,6 +47,7 @@
             "API development and third-party integrations",
             "Maintenance, support, and scalability upgrades"
         ],
+        "benefits_title": "Benefits",
         "benefits": [
             "Enhanced digital presence and brand value",
             "Improved user engagement and conversion rates",
@@ -50,6 +55,7 @@
             "Scalable and secure architecture for long-term growth",
             "Continuous support and future-ready technology stack"
         ],
+        "technologies_used_title": "Technologies We Use:",
         "technologies_used": [
             "React",
             "Node.js",
@@ -66,7 +72,8 @@
         "slug": "mixed-reality",
         "short_description": "We create immersive AR and VR experiences that bring your ideas to life.",
         "banner_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUDZF9jRZwcENaFRNMZS7IDm_QjB35B4GydA&s",
-        "overview": "At M14 Technologies, we blend the physical and digital worlds through our innovative Mixed Reality solutions. Our team designs augmented reality (AR) and virtual reality (VR) applications that transform how people learn, work, and interact. From product visualization to simulation-based training, we help businesses across industries create engaging and interactive experiences that enhance communication and decision-making. With the latest MR technologies, we deliver solutions that redefine customer engagement and operational efficiency.",
+        "overview": "A mixed reality application seamlessly integrates the physical and digital realms, enabling real-time interaction between tangible and virtual objects to create immersive environments that enhance user experience.",
+        "key_features_title": "Key Features",
         "key_features": [
             "AR and VR application development",
             "3D modeling and visualization",
@@ -74,6 +81,7 @@
             "Interactive marketing and product demos",
             "Cross-platform MR solutions (Oculus, HoloLens, Android, iOS)"
         ],
+        "benefits_title": "Benefits",
         "benefits": [
             "Increased engagement through immersive experiences",
             "Improved training and learning outcomes",
@@ -81,6 +89,7 @@
             "Competitive advantage through innovation",
             "Scalable solutions across industries like education, healthcare, and retail"
         ],
+        "technologies_used_title": "Technologies We Use:",
         "technologies_used": [
             "Unity 3D",
             "Unreal Engine",
@@ -104,6 +113,7 @@
             "Interactive marketing and product demos",
             "Cross-platform MR solutions (Oculus, HoloLens, Android, iOS)"
         ],
+        "benefits_title": "Benefits",
         "benefits": [
             "Increased engagement through immersive experiences",
             "Improved training and learning outcomes",
@@ -111,6 +121,7 @@
             "Competitive advantage through innovation",
             "Scalable solutions across industries like education, healthcare, and retail"
         ],
+        "technologies_used_title": "Technologies We Use:",
         "technologies_used": [
             "Unity 3D",
             "Unreal Engine",
@@ -126,7 +137,8 @@
         "slug": "digital-marketing",
         "short_description": "We help your brand grow through powerful digital marketing strategies and campaigns.",
         "banner_image": "https://www.monash.edu/__data/assets/image/0006/3997950/illustration-digital-marketing.jpg",
-        "overview": "Our Digital Marketing services empower businesses to stand out in a crowded digital landscape. At M14 Technologies, we offer a complete suite of marketing solutions — from search engine optimization and paid advertising to social media management and content marketing. We focus on measurable results and data-driven strategies that maximize your reach, boost engagement, and drive conversions. Whether you’re launching a new product or building long-term brand awareness, we tailor campaigns to meet your unique goals.",
+        "overview": "Our comprehensive digital marketing solutions are designed to boost visibility, attract leads and expand your brand, employing customized strategies across SEO, social media and content marketing.",
+        "key_features_title": "Key Features",
         "key_features": [
             "Search Engine Optimization (SEO) and SEM campaigns",
             "Social media marketing and ad management",
@@ -134,6 +146,7 @@
             "Email marketing and automation",
             "Performance tracking and analytics"
         ],
+        "benefits_title": "Benefits",
         "benefits": [
             "Improved online visibility and traffic",
             "Higher conversion and engagement rates",
@@ -141,6 +154,7 @@
             "Stronger brand reputation and awareness",
             "Data-backed insights for continuous improvement"
         ],
+        "technologies_used_title": "Technologies We Use:",
         "technologies_used": [
             "Google Ads",
             "Facebook Ads",
@@ -156,7 +170,9 @@
         "slug": "management-services",
         "short_description": "We handle your social and digital platforms with expert management solutions.",
         "banner_image": "https://www.marketing91.com/wp-content/uploads/2019/01/Types-of-Business-Services-1.jpg",
-        "overview": "Our Management Services are designed to help businesses efficiently manage their digital presence while focusing on core operations. We provide social media management (SMM), content scheduling, brand monitoring, and reputation management to ensure consistent communication and engagement across all platforms. M14 Technologies helps you maintain a cohesive brand voice, optimize posting schedules, and build stronger relationships with your audience — saving time and improving overall digital efficiency.",
+        "overview": "At M14 Technologies, we help businesses establish a strong and consistent digital presence through our comprehensive management solutions. From optimizing social media channels to maintaining your online reputation, our team ensures your brand communicates effectively across every platform.",
+        "content": "We focus on building sustainable digital ecosystems that enhance your brand’s identity and help you stay ahead in the fast-evolving tech landscape.",
+        "key_features_title": "Key Features",
         "key_features": [
             "Social Media Management (SMM)",
             "Content strategy and scheduling",
@@ -164,6 +180,7 @@
             "Customer engagement and response management",
             "Performance insights and growth tracking"
         ],
+        "benefits_title": "Benefits",
         "benefits": [
             "Consistent brand image and communication",
             "Increased audience engagement and trust",
@@ -171,12 +188,20 @@
             "Better customer relationship management",
             "Time and cost efficiency for your business"
         ],
+        "technologies_used_title": "Technologies We Use:",
         "technologies_used": [
             "Hootsuite",
             "Buffer",
             "Meta Business Suite",
             "Canva",
             "Google Analytics"
+        ],
+        "our_service_title": "Our Management Services Includes:",
+        "our_service_include":[
+            "Social Media Management: Strategic content creation, posting schedules, and audience engagement to grow your brand visibility and trust.",
+            "Website Management: Regular updates, performance monitoring, and content maintenance to keep your website secure, fast, and relevant.",
+            "Digital Marketing Campaigns: End-to-end management of online promotions, ensuring measurable results and maximum ROI.",
+            "Analytics & Reporting: Continuous tracking of performance metrics to refine strategies and deliver actionable insights."
         ],
         "cta_text": "Simplify Your Management",
         "cta_link": "/contact"
@@ -186,7 +211,9 @@
         "slug": "platform-optimization",
         "short_description": "We optimize your website and social media platforms for better performance and reach.",
         "banner_image": "https://hystax.com/wp-content/uploads/2024/01/Success-stories-cloud-optimization-Google-Cloud-Platform.png",
-        "overview": "At M14 Technologies, our Platform Optimization service focuses on maximizing the potential of your digital platforms. From improving website performance and SEO to optimizing social media profiles and content strategies, we help you achieve higher visibility and engagement. Our experts analyze your digital presence, identify gaps, and implement strategies that align with your brand objectives — ensuring every platform works efficiently to support your growth.",
+        "overview": "We enhance the performance and reach of your digital platforms — from websites to social media channels — ensuring they operate efficiently and deliver maximum impact.",
+        "content": "We make sure every platform representing your brand works smarter, loads faster, and connects better with your audience.",
+        "key_features_title": "Key Features",
         "key_features": [
             "Website performance optimization and SEO",
             "Social media profile optimization",
@@ -194,6 +221,7 @@
             "Analytics-driven performance enhancement",
             "Mobile and cross-platform optimization"
         ],
+        "benefits_title": "Benefits",
         "benefits": [
             "Faster load times and improved SEO rankings",
             "Better user engagement and retention",
@@ -201,12 +229,19 @@
             "Improved conversion rates",
             "Long-term digital growth and brand impact"
         ],
+        "technologies_used_title": "Technologies We Use:",
         "technologies_used": [
             "Google PageSpeed",
             "Lighthouse",
             "Ahrefs",
             "Canva",
             "Semrush"
+        ],
+        "our_service_title": "Our Platform Optimization Services Includes:",
+        "our_service_include":[
+            "Website Optimisation: Improving speed, responsiveness, SEO, and overall user experience to ensure your site performs seamlessly across all devices.",
+            "Social Media Optimisation: Refining profiles, visuals, and content strategies to boost engagement, visibility, and brand consistency across platforms",
+            "Performance Analytics: Tracking and analysing metrics to continuously improve audience reach and platform effectiveness."
         ],
         "cta_text": "Optimize Your Platforms",
         "cta_link": "/contact"
@@ -216,7 +251,9 @@
         "slug": "it-consulting-support",
         "short_description": "We provide expert IT consulting and ongoing technical support for your business.",
         "banner_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfhGZBxrDCzv5GdPUJHEjMkUm3McBaRBZMqg&s",
-        "overview": "M14 Technologies offers expert IT Consulting and Support services to help businesses make informed technology decisions and ensure seamless operations. We assist in planning IT strategies, conducting system audits, implementing new technologies, and offering 24/7 technical support. Our consulting team aligns IT infrastructure and software systems with your business goals, ensuring reliability, security, and performance at every level.",
+        "overview": "We provide end-to-end IT consulting and support to help businesses build reliable, secure, and scalable technology environments. Our team works closely with you to understand your goals, assess your existing infrastructure, and design tailored solutions that enhance efficiency and productivity.",
+        "content":"With a focus on reliability and performance, we ensure your technology empowers — not hinders — your growth.",
+        "key_features_title": "Key Features",
         "key_features": [
             "Strategic IT consulting and planning",
             "System analysis and technology audits",
@@ -224,6 +261,7 @@
             "Technical support and troubleshooting",
             "Cybersecurity and compliance consulting"
         ],
+        "benefits_title": "Benefits",
         "benefits": [
             "Smarter technology investment decisions",
             "Reduced downtime and enhanced system stability",
@@ -231,6 +269,7 @@
             "Tailored solutions aligned with business needs",
             "24/7 expert support and maintenance"
         ],
+        "technologies_used_title": "Technologies We Use:",
         "technologies_used": [
             "AWS",
             "Azure",
@@ -238,7 +277,29 @@
             "Microsoft 365",
             "Cisco"
         ],
+        "our_service_title": "Our IT Consulting & Support Services Includes:",
+        "our_service_include":[
+            "IT Infrastructure Consulting: Strategic planning and implementation of hardware, software, and network systems",
+            "Technical Support: Round-the-clock assistance to resolve technical issues quickly and minimize downtime",
+            "System Maintenance: Regular monitoring, updates, and troubleshooting to keep your systems running smoothly.",
+            "Technology Upgrades: Guidance and deployment of the latest tools and solutions to keep your business ahead of the curve."
+        ],
         "cta_text": "Consult Our Experts",
         "cta_link": "/contact"
+    },
+    {
+        "title": "App Development",
+        "slug": "app-development",
+        "short_description": "We build high-performance websites and custom software tailored to your business goals.",
+        "banner_image": "https://riseuplabs.com/wp-content/uploads/2021/07/mobile-application-development-guidelines-riseuplabs.jpg",
+        "overview": "Elevate your business potential with our state-of-the-art app development services as our tailored applications prioritize user experience, ensuring seamless functionality that aligns with your unique requirements"
+
+    },
+    {
+        "title": "Software Development",
+        "slug": "software-development",
+        "short_description": "We build high-performance websites and custom software tailored to your business goals.",
+        "banner_image": "https://www.intelivita.com/wp-content/uploads/2023/10/Software-Development-Process.webp",
+        "overview": "Elevate your business potential with our state-of-the-art app development services as our tailored applications prioritize user experience, ensuring seamless functionality that aligns with your unique requirements."
     }
 ]

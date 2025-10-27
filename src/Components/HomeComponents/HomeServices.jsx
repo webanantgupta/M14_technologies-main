@@ -54,7 +54,7 @@ const HomeServices = () => {
                                             <p>
                                                 We offer a full suite of innovative and result-driven technology services designed to empower startups, small businesses, and enterprises alike. Our team blends creativity, strategy, and engineering excellence to deliver digital products that are not only visually appealing but also highly functional and scalable. Whether you’re launching a new brand, expanding your digital presence, or modernizing enterprise systems — we provide tailored solutions that align with your goals.
                                             </p>
-                                            <CommonBtn btntxt="View All" />
+                                            <CommonBtn btntxt="View All" link="/services" />
                                         </div>
                                     </div>
                                 </div>

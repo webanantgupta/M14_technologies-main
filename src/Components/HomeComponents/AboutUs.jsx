@@ -31,10 +31,15 @@ const AboutUs = () => {
                                 </div>
                                 <div className="col-sm-8">
                                     <p className="ps-lg-3 mt-4 mt-sm-0">
-                                        We are a passionate team of developers, designers, and problem-solvers focused on building modern, scalable, and secure digital solutions. With a deep understanding of technology and business needs, we work closely with clients to transform ideas into intelligent products — whether it's a custom web app, a mobile platform, or a cloud-based system.
+                                        M14 is a leading IT solutions provider committed to delivering
+                                        innovative, reliable, and comprehensive technology services to
+                                        businesses of all sizes. Founded on the principles of excellence,
+                                        integrity, and customer satisfaction, we strive to empower
+                                        organizations with the tools and expertise needed to thrive in
+                                        today’s fast-paced digital world.
                                     </p>
                                     <div className="d-flex justify-content-center mt-5 ms-sm-5 ms-0">
-                                        <CommonBtn btntxt="About Us" link="/about"/>
+                                        <CommonBtn btntxt="About Us" link="/about" />
                                     </div>
                                 </div>
                             </div>

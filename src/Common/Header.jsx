@@ -53,6 +53,11 @@ const Header = () => {
                   Services <i className="fa-solid fa-chevron-down" />
                 </Link>
                 <ul className="submenu">
+                   <li>
+                    <Link className="nav-link" to="/services/app-development">
+                      App Development
+                    </Link>
+                  </li>
                   <li>
                     <Link className="nav-link" to="/services/it-infrastructure-setup">
                       IT Infra Setup

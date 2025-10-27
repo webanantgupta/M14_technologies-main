@@ -34,11 +34,20 @@ const Aboutus = () => {
                     </div>
                     <div className="col-sm-8">
                       <p className="ps-lg-3 mt-4 mt-sm-0">
-                        At M14 Technologies, we are passionate about turning ideas into powerful digital solutions. Founded with a vision to redefine technology innovation, we specialize in building scalable, secure, and smart software products that help businesses grow in the digital era.
+                        M14 is a leading IT solutions provider committed to delivering
+                        innovative, reliable, and comprehensive technology services to
+                        businesses of all sizes. Founded on the principles of excellence,
+                        integrity, and customer satisfaction, we strive to empower
+                        organizations with the tools and expertise needed to thrive in
+                        today’s fast-paced digital world.
+
+
                         <br />
-                        Our team of talented developers, designers, and innovators work together to craft custom software solutions — from web and mobile applications to enterprise systems and cloud-based platforms.
-                        <br />
-                        With a deep understanding of modern technologies, we empower startups, enterprises, and organizations to stay ahead in a rapidly changing world.
+                        With a team of seasoned professionals and a portfolio of
+                        cutting-edge solutions, we specialize in providing end-to-end
+                        IT services, from infrastructure design and implementation to
+                        cybersecurity, cloud services, and IT consulting.
+
                       </p>
 
                     </div>
@@ -87,7 +96,7 @@ const Aboutus = () => {
             <div className="space-pb ellipse-bottom">
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-5">
+                  <div className="col-lg-12">
                     <div className="sticky-top" style={{ top: 80 }}>
                       <div className="section-title mb-0">
                         <span className="sub-title">
@@ -101,14 +110,20 @@ const Aboutus = () => {
                         <h2 className="title">Mission & Vision</h2>
                       </div>
                       <p className="mb-5 mb-lg-0 ms-lg-5">
-                        To deliver cutting-edge software solutions that simplify business challenges, drive efficiency, and inspire innovation. We aim to empower our clients through technology that truly makes a difference.
+                        Our mission is to empower businesses through innovative IT solutions that enhance operational efficiency, drive growth, and provide a competitive edge.
+
                         <br />
                         <br />
-                        To become a global leader in digital transformation by providing reliable, future-ready, and high-performing technology solutions that shape the way businesses operate and people interact.
+                        We are dedicated to delivering personalized services that meet the unique needs of each client, ensuring they achieve their business objectives
+                        Our Vision is to be the preferred IT partner for businesses globally,
+                        recognized for our commitment
+                        to innovation, customer-centric
+                        solutions, and our unwavering
+                        dedication to excellence.
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-7">
+                  {/* <div className="col-lg-7">
                     <div className="history-wrapper">
                       <div className="history-info">
                         <div className="history-year-lg text-black fs-2">Achievements</div>
@@ -124,11 +139,11 @@ const Aboutus = () => {
                             </li>
                             <li>Growing steadily with a talented and passionate team dedicated to excellence.</li>
                           </ul>
-                         
+
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

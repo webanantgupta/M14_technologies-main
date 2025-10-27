@@ -93,7 +93,7 @@ const ContactUs = () => {
                         <div className="location-info">
                           <div className="city-info py-5">
                             <h5 className="city-name">
-                              <a href="#">Shanghai</a>
+                              <a href="#">India</a>
                             </h5>
                             <div className="city-location">
                               <div className="location-item">
@@ -142,7 +142,7 @@ const ContactUs = () => {
     Contact Us */}
           {/*=================================
     Contact Us */}
-          <section className="space-pt ellipse-top bg-white">
+          <section className="space ellipse-top bg-white">
             <div className="space-pb ellipse-bottom">
               <div className="container">
                 <div className="row justify-content-center">
@@ -261,6 +261,13 @@ const ContactUs = () => {
                           </div>
                         </div>
                       </form>
+                    </div>
+                  </div>
+                </div>
+                <div className="row mt-5">
+                  <div className="col-md-12">
+                    <div className="map_here">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.2422859960975!2d80.93417747882752!3d26.888144400991862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3999574966b00d11%3A0x877ecada07e90d24!2sOneBigBit%20Technologies%20Pvt.%20Ltd!5e1!3m2!1sen!2sin!4v1760443147153!5m2!1sen!2sin" width="600" height="450" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>

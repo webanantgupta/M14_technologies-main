@@ -1,5 +1,5 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
+import BackToTop from './BackToTop'
 
 const Footer = () => {
   return (
@@ -53,19 +53,23 @@ const Footer = () => {
                   <div className="widget widget-menu">
                     <h6 className="widget-title">Quick Links</h6>
                     <ul className="list-unstyled list-col-3 mb-0">
-                      <li><Link to="/">Home</Link></li>
-                      <li><Link to="/">About us</Link></li>
-                      <li><Link to="/">Service</Link></li>
-                      <li><Link to="/">Products</Link></li>
-                      <li><Link to="/">Contact</Link></li>
+                      <li><Link to="/" onClick={<BackToTop/>}>Home</Link></li>
+                      <li><Link to="/about" onClick={<BackToTop/>}>About us</Link></li>
+                      <li><Link to="/services/app-development" onClick={<BackToTop/>}>Service</Link></li>
+                      <li><Link to="/serve/education" onClick={<BackToTop/>}>Industries</Link></li>
+                      <li><Link to="/contact" onClick={<BackToTop/>}>Contact</Link></li>
+                      <li><Link to="/" onClick={<BackToTop/>}>Privacy Policy</Link></li>
+
                     </ul>
                     <br /> <br />
                     <ul className="list-unstyled list-col-3 mb-0">
-                      <li><Link to="/">Privacy Policy</Link></li>
-                      <li><Link to="/">App Development</Link></li>
-                      <li><Link to="/">Graphic Designer</Link></li>
-                      <li><Link to="/">Digital Marketing</Link></li>
-                      <li><Link to="/">SEO</Link></li>
+                      <li><Link to="/services/it-infrastructure-setup" onClick={<BackToTop/>}>It Infra Setup</Link></li>
+                      <li><Link to="/services/mixed-reality" onClick={<BackToTop/>}>Mixed Reality</Link></li>
+                      <li><Link to="/services/digital-marketing" onClick={<BackToTop/>}>Digital Marketing</Link></li>
+                      <li><Link to="/services/platform-optimization" onClick={<BackToTop/>}>Platform Optimization</Link></li>
+                      <li><Link to="/serve/retail" onClick={<BackToTop/>}>Retail</Link></li>
+                      <li><Link to="/serve/finance" onClick={<BackToTop/>}>Finance</Link></li>
+
                     </ul>
                   </div>
                 </div>
@@ -83,7 +87,7 @@ const Footer = () => {
                         />
                       </i>
                       <span className="info">
-                        <span>C-25, Aliganj, Lucknow  </span>  Uttar Pradesh India - 226024
+                        <span>C-25, Aliganj, Lucknow <br /> Uttar Pradesh India - 226024 </span>  
                       </span>
                     </li>
                     <li>
@@ -95,7 +99,7 @@ const Footer = () => {
                         />
                       </i>
                       <span className="info">
-                        <span>99999999999 </span>Mon-fri 9:00am 6:00pm
+                        <span>99999999999 </span>
                       </span>
                     </li>
                     <li>
@@ -116,25 +120,25 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/* <div className="footer-copyright">
+        <div className="footer-copyright p-0">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6">
-                <p>
+                {/* <p>
                   <Link className="footer-logo" to="/">
                     <img className="img-fluid" src="/images/white_logo.png" alt="logo" style={{ height: '90px' }} />
                     <h4 className='gradient-text'>M14 Technologies</h4>
                   </Link>
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-12 text-lg-center text-center mb-0">
                 <p className='mb-0'>
-                  Powered By - <Link to="https://onebigbit.com/" target='_blank'>OneBigBit Technologies Private Limited</Link>
+                  Copyright © 2025 All Rights Reserved  - <Link to="/">M14 Technologies Pvt. Ltd.</Link>
                 </p>
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </footer>
     </>
   )

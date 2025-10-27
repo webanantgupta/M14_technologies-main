@@ -1,7 +1,16 @@
+import {useNavigate } from "react-router-dom"
 
 
 const Blogcontent = ({ blog }) => {
     // console.log(blog,'blog hee')
+const navigate = useNavigate();
+
+const handleClick = (obj) =>{
+    console.log(obj);
+    navigate("/viewblog", {state:obj});
+    
+}
+
     return (
         <div>
             {blog ? (
@@ -14,7 +23,7 @@ const Blogcontent = ({ blog }) => {
                                     blog.map((obj, index) => {
                                         return (
                                             <>
-                                                <div className="col-lg-4 col-md-6 mb-5" key={index}>
+                                                <div className="col-lg-4 col-md-6 mb-5" key={index} >
                                                     <div className="blog-items ">
                                                         <div className="blog-post-wrapper blog-style-1">
 
@@ -23,9 +32,9 @@ const Blogcontent = ({ blog }) => {
                                                                     <div className="post-meta-date text-light">{obj.date}</div>
                                                                 </div>
                                                                 <h5 className="post-title">
-                                                                    <a href="#" className="text-light">
+                                                                    <span  onClick={()=>handleClick(obj)} style={{cursor:'pointer'}} className="text-light">
                                                                         {obj.title}
-                                                                    </a>
+                                                                    </span>
                                                                 </h5>
                                                             </div>
 
@@ -34,10 +43,10 @@ const Blogcontent = ({ blog }) => {
                                                             </div>
                                                             <div className="blog-action-info">
                                                                 <h5 className="post-category">
-                                                                    <a href="#" className="text-light">{obj.category}</a>
+                                                                    <span  onClick={()=>handleClick(obj)} style={{cursor:'pointer'}} className="text-light">{obj.category}</span>
                                                                 </h5>
                                                                 <div className="post-link">
-                                                                    <a className="btn-arrow" href="#">
+                                                                    <span className="btn-arrow"  style={{cursor:'pointer'}} onClick={()=>handleClick(obj)}>
                                                                         <svg
                                                                             width={17}
                                                                             height={16}
@@ -68,7 +77,7 @@ const Blogcontent = ({ blog }) => {
                                                                                 </clipPath>
                                                                             </defs>
                                                                         </svg>
-                                                                    </a>
+                                                                    </span>
                                                                 </div>
                                                             </div>
                                                         </div>

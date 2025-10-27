@@ -13,58 +13,91 @@ const Pagecontent = ({ service }) => {
                         <p>{service.overview}</p>
                     </div>
 
-                    <div className="page_image">
+                    <div className="page_image m">
                         <img src={service.banner_image} alt={service.title} />
                     </div>
                 </div>
 
             </div>
 
-            {/* keyfeatures section */}
-            <section className='keyfeatures_container'>
-                <div>
-                    <h2>{service.title}</h2>
-                    <ul>
-                        {service.key_features.map((obj, index) => {
-                            return <li key={index}>
-                                {obj}
-                            </li>
-                        })}
-                    </ul>
-                </div>
+            {/* our service include */}
 
-            </section>
+            {service.our_service_include && (
+                <section className="ourservice_container mb-5">
+                    <div>
+                        <h2>{service.our_service_title}</h2>
+                        <div>
+                            <ul>
+                                {
+                                    service.our_service_include.map((obj, index) => {
+                                        return <li key={index}>
+                                            <p>{obj}</p>
+                                        </li>
+                                    })
+                                }
+                            </ul>
+                        </div>
+                    </div>
+
+                </section>
+            )
+            }
+
+
+            {/* keyfeatures section */}
+            {/* {service.key_features && (
+                <section className='keyfeatures_container'>
+                    <div>
+                        <h2>{service.key_features_title}</h2>
+                        <ul>
+                            {service.key_features.map((obj, index) => {
+                                return <li key={index}>
+                                    <p>{obj}</p>
+                                </li>
+                            })}
+                        </ul>
+                    </div>
+
+                </section>
+            )} */}
+
 
             {/* benefites section */}
+            {/* {service.benefits && (
+                <section className='benefits_container'>
+                    <div>
+                        <h2>{service.benefits_title}</h2>
+                        <ul>
+                            {service.benefits.map((obj, index) => {
+                                return <li key={index}>
+                                    <p>{obj}</p>
+                                </li>
+                            })}
+                        </ul>
+                    </div>
 
-            <section className='benefits_container'>
-                <div>
-                    <h2>{service.title}</h2>
-                    <ul>
-                        {service.benefits.map((obj, index) => {
-                            return <li key={index}>
-                                {obj}
-                            </li>
-                        })}
-                    </ul>
-                </div>
+                </section>
+            )} */}
 
-            </section>
 
             {/* technology section */}
-            <section className='technology_container'>
-                <div>
-                    <h2>{service.title}</h2>
-                    <ul>
-                        {service.technologies_used.map((obj, index) => {
-                            return <li key={index}>
-                                {obj}
-                            </li>
-                        })}
-                    </ul>
-                </div>
+{/* 
+            {service.technologies_used && (
+                <section className='technology_container'>
+                    <div>
+                        <h2>{service.technologies_used_title}</h2>
+                        <ul>
+                            {service.technologies_used.map((obj, index) => {
+                                return <li key={index}>
+                                    <p>{obj}</p>
+                                </li>
+                            })}
+                        </ul>
+                    </div>
 
-            </section>
+                </section>
+            )} */}
+
 
 
         </div>
