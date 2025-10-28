@@ -3,7 +3,7 @@ import PageHeader from '../../../Common/PageHeader'
 import Pagecontent from '../../../Common/Pagecontent'
 
 const Platform = () => {
-const service = serviceData[6];
+const service = serviceData[5];
 
 
   return (

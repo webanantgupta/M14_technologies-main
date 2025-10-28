@@ -4,11 +4,11 @@ import BackToTop from './BackToTop'
 const Footer = () => {
   return (
     <>
-      <footer className="site-footer footer-dark pb-lg-5 mb-0">
+      <footer className="site-footer footer-dark pb-lg-4  mb-0">
         <div className="footer-main">
           <div className="container">
             <div className="row">
-                <div className="col-xl-3 col-md-12 ms-auto">
+                <div className="col-xl-3 col-md-12 mx-2">
                 <div className="widget widget-info">
                   {/* <h5 className="widget-title">Call Center</h5> */}
                  <Link className="footer-logo" to="/">
@@ -53,23 +53,19 @@ const Footer = () => {
                   <div className="widget widget-menu">
                     <h6 className="widget-title">Quick Links</h6>
                     <ul className="list-unstyled list-col-3 mb-0">
-                      <li><Link to="/" onClick={<BackToTop/>}>Home</Link></li>
-                      <li><Link to="/about" onClick={<BackToTop/>}>About us</Link></li>
+                      <li><Link to="/services/management-service" onClick={<BackToTop/>}>Management Service</Link></li>
+                      <li><Link to="/services/it-consulting" onClick={<BackToTop/>}>IT Consulting</Link></li>
                       <li><Link to="/services/app-development" onClick={<BackToTop/>}>Service</Link></li>
                       <li><Link to="/serve/education" onClick={<BackToTop/>}>Industries</Link></li>
-                      <li><Link to="/contact" onClick={<BackToTop/>}>Contact</Link></li>
-                      <li><Link to="/" onClick={<BackToTop/>}>Privacy Policy</Link></li>
-
-                    </ul>
-                    <br /> <br />
-                    <ul className="list-unstyled list-col-3 mb-0">
+                      {/* <li><Link to="/contact" onClick={<BackToTop/>}>Contact</Link></li> */}
+                      <li><Link to="/serve/finance" onClick={<BackToTop/>}>Finance</Link></li>
                       <li><Link to="/services/it-infrastructure-setup" onClick={<BackToTop/>}>It Infra Setup</Link></li>
                       <li><Link to="/services/mixed-reality" onClick={<BackToTop/>}>Mixed Reality</Link></li>
                       <li><Link to="/services/digital-marketing" onClick={<BackToTop/>}>Digital Marketing</Link></li>
+                      <li><Link to="/" onClick={<BackToTop/>}>Privacy Policy</Link></li>
+                      <li><Link to="/serve/retail" onClick={''}>Retail</Link></li>
                       <li><Link to="/services/platform-optimization" onClick={<BackToTop/>}>Platform Optimization</Link></li>
-                      <li><Link to="/serve/retail" onClick={<BackToTop/>}>Retail</Link></li>
-                      <li><Link to="/serve/finance" onClick={<BackToTop/>}>Finance</Link></li>
-
+                      <li><Link to="/" onClick={<BackToTop/>}>Terms and conditions</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -131,8 +127,8 @@ const Footer = () => {
                   </Link>
                 </p> */}
               </div>
-              <div className="col-lg-12 text-lg-center text-center mb-0">
-                <p className='mb-0'>
+              <div className="col-lg-12 text-lg-center text-center">
+                <p className=''>
                   Copyright © 2025 All Rights Reserved  - <Link to="/">M14 Technologies Pvt. Ltd.</Link>
                 </p>
               </div>

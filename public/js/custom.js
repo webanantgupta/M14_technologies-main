@@ -352,41 +352,6 @@ NOTE: This file contains all scripts for the actual Template.
   };
 
   /*************************
-       Back to top
-  *************************/
-  POTENZA.goToTop = function () {
-    var progressPath = document.querySelector('.back-to-top path');
-    var pathLength = progressPath.getTotalLength();
-    progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
-    progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
-    progressPath.style.strokeDashoffset = pathLength;
-    progressPath.getBoundingClientRect();
-    progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';    
-    var updateProgress = function () {
-      var scroll = $(window).scrollTop();
-      var height = $(document).height() - $(window).height();
-      var progress = pathLength - (scroll * pathLength / height);
-      progressPath.style.strokeDashoffset = progress;
-    }
-    updateProgress();
-    $(window).scroll(updateProgress); 
-    var offset = 300;
-    var duration = 600;
-    jQuery(window).on('scroll', function() {
-      if (jQuery(this).scrollTop() > offset) {
-        jQuery('.back-to-top').addClass('active-progress');
-      } else {
-        jQuery('.back-to-top').removeClass('active-progress');
-      }
-    });       
-    jQuery('.back-to-top').on('click', function(event) {
-      event.preventDefault();
-      jQuery('html, body').animate({scrollTop: 0}, duration);
-      return false;
-    })
-  }
-
-  /*************************
   Search bar
   *************************/
   POTENZA.searchbar = function () {

@@ -4,7 +4,7 @@ import Pagecontent from '../../../Common/Pagecontent';
 
 const Itconsulting = () => {
 
-const service = serviceData[7];
+const service = serviceData[6];
 
   return (
     <div>

@@ -3,7 +3,7 @@ import Banner from '../Components/HomeComponents/Banner'
 import AboutUs from '../Components/HomeComponents/AboutUs'
 import ServicesInfo from '../Components/HomeComponents/ServicesInfo'
 import HomeServices from '../Components/HomeComponents/HomeServices'
-import CaseStudies from '../Components/HomeComponents/CaseStudies'
+// import CaseStudies from '../Components/HomeComponents/CaseStudies'
 import Testimonial from '../Components/HomeComponents/Testimonial'
 
 const Home = () => {

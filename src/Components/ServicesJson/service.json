@@ -30,7 +30,8 @@
             "Fortinet"
         ],
         "cta_text": "Set Up Your IT Infrastructure",
-        "cta_link": "/contact"
+        "cta_link": "/contact",
+        "link": "/services/it-infrastructure-setup"
     },
     {
         "title": "Website & Software Development",
@@ -65,7 +66,8 @@
             "MySQL"
         ],
         "cta_text": "Start Your Project",
-        "cta_link": "/contact"
+        "cta_link": "/contact",
+        "link": "/services/website-software-development"
     },
     {
         "title": "Mixed Reality",
@@ -98,39 +100,8 @@
             "Blender"
         ],
         "cta_text": "Create Your MR Experience",
-        "cta_link": "/contact"
-    },
-    {
-        "title": "Digital ",
-        "slug": "mixed-reality",
-        "short_description": "We create immersive AR and VR experiences that bring your ideas to life.",
-        "banner_image": "/images/services/mixed-reality.jpg",
-        "overview": "At M14 Technologies, we blend the physical and digital worlds through our innovative Mixed Reality solutions. Our team designs augmented reality (AR) and virtual reality (VR) applications that transform how people learn, work, and interact. From product visualization to simulation-based training, we help businesses across industries create engaging and interactive experiences that enhance communication and decision-making. With the latest MR technologies, we deliver solutions that redefine customer engagement and operational efficiency.",
-        "key_features": [
-            "AR and VR application development",
-            "3D modeling and visualization",
-            "Training and simulation environments",
-            "Interactive marketing and product demos",
-            "Cross-platform MR solutions (Oculus, HoloLens, Android, iOS)"
-        ],
-        "benefits_title": "Benefits",
-        "benefits": [
-            "Increased engagement through immersive experiences",
-            "Improved training and learning outcomes",
-            "Enhanced product visualization and customer interaction",
-            "Competitive advantage through innovation",
-            "Scalable solutions across industries like education, healthcare, and retail"
-        ],
-        "technologies_used_title": "Technologies We Use:",
-        "technologies_used": [
-            "Unity 3D",
-            "Unreal Engine",
-            "ARCore",
-            "ARKit",
-            "Blender"
-        ],
-        "cta_text": "Create Your MR Experience",
-        "cta_link": "/contact"
+        "cta_link": "/contact",
+        "link": "/services/mixed-reality"
     },
     {
         "title": "Digital Marketing",
@@ -163,7 +134,8 @@
             "HubSpot"
         ],
         "cta_text": "Boost Your Online Presence",
-        "cta_link": "/contact"
+        "cta_link": "/contact",
+        "link": "/services/digital-marketing"
     },
     {
         "title": "Management Services",
@@ -204,7 +176,8 @@
             "Analytics & Reporting: Continuous tracking of performance metrics to refine strategies and deliver actionable insights."
         ],
         "cta_text": "Simplify Your Management",
-        "cta_link": "/contact"
+        "cta_link": "/contact",
+        "link": "/services/management-service"
     },
     {
         "title": "Platform Optimization",
@@ -244,7 +217,8 @@
             "Performance Analytics: Tracking and analysing metrics to continuously improve audience reach and platform effectiveness."
         ],
         "cta_text": "Optimize Your Platforms",
-        "cta_link": "/contact"
+        "cta_link": "/contact",
+        "link": "/services/platform-optimization"
     },
     {
         "title": "IT Consulting & Support",
@@ -285,21 +259,17 @@
             "Technology Upgrades: Guidance and deployment of the latest tools and solutions to keep your business ahead of the curve."
         ],
         "cta_text": "Consult Our Experts",
-        "cta_link": "/contact"
+        "cta_link": "/contact",
+        "link": "/services/it-consulting"
     },
     {
         "title": "App Development",
         "slug": "app-development",
         "short_description": "We build high-performance websites and custom software tailored to your business goals.",
         "banner_image": "https://riseuplabs.com/wp-content/uploads/2021/07/mobile-application-development-guidelines-riseuplabs.jpg",
-        "overview": "Elevate your business potential with our state-of-the-art app development services as our tailored applications prioritize user experience, ensuring seamless functionality that aligns with your unique requirements"
-
-    },
-    {
-        "title": "Software Development",
-        "slug": "software-development",
-        "short_description": "We build high-performance websites and custom software tailored to your business goals.",
-        "banner_image": "https://www.intelivita.com/wp-content/uploads/2023/10/Software-Development-Process.webp",
-        "overview": "Elevate your business potential with our state-of-the-art app development services as our tailored applications prioritize user experience, ensuring seamless functionality that aligns with your unique requirements."
+        "overview": "Elevate your business potential with our state-of-the-art app development services as our tailored applications prioritize user experience, ensuring seamless functionality that aligns with your unique requirements",
+        "link": "/services/app-development"
+        
     }
+  
 ]

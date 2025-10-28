@@ -1,6 +1,19 @@
+import { Link } from "react-router-dom"
+import Modalpopup from "../../Common/Modalpopup";
+import { useState } from "react";
 
 
 const Banner = () => {
+    const [modalOpen, setModalOpen] = useState(false);
+    
+    const handleModal = (e) => {
+    e.preventDefault();
+      setModalOpen(true);
+    }
+    
+    const handleClose = () =>{
+      setModalOpen(false);
+    }
     return (
         <>
             <div className="main-banner main-banner-1">
@@ -29,7 +42,7 @@ const Banner = () => {
                                           <h1 className="animate__animated animate__flipInX animate__delay-.5s mt-0  pt-0">
                                          Real-World Impact</h1>
                                     <p>We’re not just building software — we’re building trust, innovation, and long-term success</p>
-                                    <a className="btn btn-effect" href="#">
+                                    <Link className="btn btn-effect" to={''} onClick={handleModal}>
                                         <span>Get A Quote</span>
                                         <svg
                                             width={20}
@@ -61,14 +74,14 @@ const Banner = () => {
                                                 </clipPath>
                                             </defs>
                                         </svg>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <Modalpopup handleClose={handleClose} modalOpen={modalOpen}/>
         </>
     )
 }

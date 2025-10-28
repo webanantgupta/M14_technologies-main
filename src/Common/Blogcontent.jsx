@@ -1,15 +1,23 @@
-import {useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
+import BackToTop from "./BackToTop";
 
 
 const Blogcontent = ({ blog }) => {
     // console.log(blog,'blog hee')
-const navigate = useNavigate();
+    const navigate = useNavigate();
 
-const handleClick = (obj) =>{
-    console.log(obj);
-    navigate("/viewblog", {state:obj});
-    
-}
+    const handleClick = (obj) => {
+        scrollTop();
+        console.log(obj);
+        navigate("/viewblog", { state: obj });
+
+    }
+    const scrollTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    }
 
     return (
         <div>
@@ -32,7 +40,7 @@ const handleClick = (obj) =>{
                                                                     <div className="post-meta-date text-light">{obj.date}</div>
                                                                 </div>
                                                                 <h5 className="post-title">
-                                                                    <span  onClick={()=>handleClick(obj)} style={{cursor:'pointer'}} className="text-light">
+                                                                    <span onClick={() => { handleClick(obj); }} style={{ cursor: 'pointer' }} className="text-light">
                                                                         {obj.title}
                                                                     </span>
                                                                 </h5>
@@ -43,10 +51,10 @@ const handleClick = (obj) =>{
                                                             </div>
                                                             <div className="blog-action-info">
                                                                 <h5 className="post-category">
-                                                                    <span  onClick={()=>handleClick(obj)} style={{cursor:'pointer'}} className="text-light">{obj.category}</span>
+                                                                    <span onClick={() => { handleClick(obj), <BackToTop /> }} style={{ cursor: 'pointer' }} className="text-light">{obj.category}</span>
                                                                 </h5>
                                                                 <div className="post-link">
-                                                                    <span className="btn-arrow"  style={{cursor:'pointer'}} onClick={()=>handleClick(obj)}>
+                                                                    <span className="btn-arrow" style={{ cursor: 'pointer' }} onClick={() => { handleClick(obj); return (<BackToTop />) }}>
                                                                         <svg
                                                                             width={17}
                                                                             height={16}

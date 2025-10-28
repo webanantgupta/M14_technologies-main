@@ -1,29 +1,39 @@
-import React from 'react'
 import ServiceCard from './ServiceCard'
 import CommonBtn from '../../Common/CommonBtn'
+import serviceData from "../ServicesJson/service.json"
+
 
 const HomeServices = () => {
-    const serviceData1 = [
-        {
-            "title": "IT Infrastructure Setup",
-            "description": "We design and deploy robust IT infrastructures tailored to your business needs. From network configuration and server setup to cloud integration and security protocols, our solutions ensure your organization operates efficiently and securely."
-        },
-        {
-            "title": "Website & Software Development",
-            "description": "Our expert developers craft responsive, scalable, and high-performance websites and software applications. Whether it’s a corporate website, e-commerce platform, or custom software solution, we deliver products that drive results and enhance user experience."
-        }
+    // const serviceData1 = [
+    //     {
+    //         "title": "IT Infrastructure Setup",
+    //         "description": "We design and deploy robust IT infrastructures tailored to your business needs. From network configuration and server setup to cloud integration and security protocols, our solutions ensure your organization operates efficiently and securely."
+    //     },
+    //     {
+    //         "title": "Website & Software Development",
+    //         "description": "Our expert developers craft responsive, scalable, and high-performance websites and software applications. Whether it’s a corporate website, e-commerce platform, or custom software solution, we deliver products that drive results and enhance user experience."
+    //     }
 
-    ]
-    const serviceData2 = [
-        {
-            "title": "Mixed Reality",
-            "description": "Step into the future with our Mixed Reality solutions. We create immersive AR/VR experiences for training, simulations, marketing, and product visualization, helping businesses engage customers in innovative and interactive ways."
-        },
-        {
-            "title": "Digital Marketing",
-            "description": "Boost your online presence with our comprehensive digital marketing services. From targeted ad campaigns and social media management to content strategy and SEO, we help your brand reach the right audience and achieve measurable growth."
-        }
-    ]
+    // ]
+    // const serviceData2 = [
+    //     {
+    //         "title": "Mixed Reality",
+    //         "description": "Step into the future with our Mixed Reality solutions. We create immersive AR/VR experiences for training, simulations, marketing, and product visualization, helping businesses engage customers in innovative and interactive ways."
+    //     },
+    //     {
+    //         "title": "Digital Marketing",
+    //         "description": "Boost your online presence with our comprehensive digital marketing services. From targeted ad campaigns and social media management to content strategy and SEO, we help your brand reach the right audience and achieve measurable growth."
+    //     }
+    // ]
+    console.log(serviceData);
+    
+    const serviceData1 = serviceData.slice(0,2)
+    console.log(serviceData1);
+    
+    const serviceData2 = serviceData.slice(2,4)
+    console.log(serviceData2);
+    
+
     return (
         <>
             <div className='normal-wrapper'>
@@ -62,15 +72,15 @@ const HomeServices = () => {
                                     <div className="row">
                                         <div className="col-sm-6">
                                             <div className="services grid-wrapper">
-                                                {serviceData1?.map((s) => (
-                                                    <ServiceCard title={s.title} des={s.description} />
+                                                {serviceData1?.map((obj) => (
+                                                    <ServiceCard title={obj.title} des={obj.short_description} link={obj.link} />
                                                 ))}
                                             </div>
                                         </div>
                                         <div className="col-sm-6">
                                             <div className="services grid-wrapper service-top-space">
-                                                {serviceData2?.map((s) => (
-                                                    <ServiceCard title={s.title} des={s.description} />
+                                                {serviceData2?.map((obj) => (
+                                                    <ServiceCard title={obj.title} des={obj.short_description} link={obj.link}/>
                                                 ))}
                                             </div>
                                         </div>

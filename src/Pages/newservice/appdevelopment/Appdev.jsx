@@ -4,7 +4,7 @@ import serviceData from "../../../Components/ServicesJson/service.json"
 
 
 const Appdev = () => {
-    const service = serviceData[8];
+    const service = serviceData[7];
   return (
     <div>
       <PageHeader title="App Development"/>

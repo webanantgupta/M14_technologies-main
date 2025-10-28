@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import Servicesvg from "../svgs/Servicesvg"
+import BackToTop from "../../Common/BackToTop"
 
 const ServiceCard = ({ title, des, link }) => {
     return (
@@ -16,7 +17,7 @@ const ServiceCard = ({ title, des, link }) => {
                         <h5 className="service-title">   {title}   </h5>
                         <p>{des}  </p>
                         <div className="service-links">
-                            <Link className="btn-arrow" to={`${link}`}>    <Servicesvg />  </Link>
+                            <Link className="btn-arrow" to={`${link}`} onClick={<BackToTop/>}>    <Servicesvg />  </Link>
                         </div>
                     </div>
                 </div>

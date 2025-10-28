@@ -1,10 +1,18 @@
 import { Link } from 'react-router-dom';
+import {useState} from "react";
+import Modalpopup from './Modalpopup';
 
 const Header = () => {
+const [modalOpen, setModalOpen] = useState(false);
 
+const handleModal = (e) => {
+e.preventDefault();
+  setModalOpen(true);
+}
 
-
-
+const handleClose = () =>{
+  setModalOpen(false);
+}
 
 
   return (
@@ -158,7 +166,7 @@ const Header = () => {
 
           <div className="site-action d-none d-xl-block" style={{ width: "20x"  }}>
             <div className="action-hamburger">
-              <Link to="/contact" className='requestBTn'>Request A Quote</Link>
+              <Link to="#" className='requestBTn' onClick={handleModal}>Get A Quote</Link>
               {/* <a
                 className="hamburger"
                 href="#"
@@ -172,6 +180,7 @@ const Header = () => {
                 </span>
               </a> */}
             </div>
+            {<Modalpopup handleClose={handleClose} modalOpen={modalOpen}/>}
           </div>
           <div className="mobile-action d-block d-xl-none">
             <div className="mobile-hamburger">

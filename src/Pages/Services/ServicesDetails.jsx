@@ -1,8 +1,6 @@
-
 import { useParams } from 'react-router-dom'
 import PageHeader from '../../Common/PageHeader'
 import allservice from '../../Components/ServicesJson/service.json'
-import { useEffect } from 'react';
 import CommonBtn from '../../Common/CommonBtn';
 
 const ServicesDetails = () => {

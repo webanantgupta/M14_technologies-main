@@ -3,7 +3,7 @@ import PageHeader from '../../../Common/PageHeader';
 import Pagecontent from '../../../Common/Pagecontent';
 
 const Digital = () => {
-const service = serviceData[4];
+const service = serviceData[3];
 
 
 
