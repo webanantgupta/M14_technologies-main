@@ -34,72 +34,76 @@ const Testimonial = () => {
   ];
   return (
     <>
-      <section className="space-ptb testimonial-section overflow-hidden ellipse-top bg-light z-index-2">
+      <section className=" testimonial-section overflow-hidden ellipse-top bg-light z-index-2">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-10">
-              <div className="section-title text-center">
-                <span className="sub-title justify-content-center">
-                  <img className="img-fluid" src="images/subtitle-icon.png" alt="" />
-                  Our Testimonial
-                </span>
-                <h2 className="title">
-                  What Our Clients Say
-                </h2>
-                <p>Trusted by startups, SMEs, and enterprises — we build solutions that speak for themselves, and so do our clients.</p>
-              </div>
-            </div>
-          </div>
+            {/* <div className="col-md-10">
 
-          <div className="row justify-content-start">
-            <div className="col-md-11">
-              <Swiper
-                modules={[Navigation, Pagination, Autoplay]}
-                spaceBetween={50}
-                slidesPerView={1}
-                autoplay={{ delay: 3000 }}
-                pagination={{ clickable: true }}
-                loop={true}
-                breakpoints={{
-                  768: { slidesPerView: 1 },
-                  992: { slidesPerView: 2 }
-                }}
-              >
-                {testimonialData.map((item, index) => (
-                  <SwiperSlide key={index}>
-                    <div className="testimonial-wrapper testimonial-style-2">
-                      <div className="testimonial-ratings">
-                        <i className="fa-solid fa-star" />
-                        <i className="fa-solid fa-star" />
-                        <i className="fa-solid fa-star" />
-                        <i className="fa-solid fa-star" />
-                        <i className="fa-regular fa-star" />
-                      </div>
-                      <div className="testimonial-quote">
-                        <img
-                          className="img-fluid"
-                          src="images/quote-icon-01.png"
-                          alt=""
-                        />
-                      </div>
-                      <div className="testimonial-content">
-                        <p>{item.content}</p>
-                      </div>
-                      <div className="testimonial-author">
-                        <div className="author-info">
-                          <h6 className="author-name">{item.name}</h6>
-                          <span className="author-position">{item.position}</span>
+            </div> */}
+
+            <div className="row ">
+
+              <div className="col-md-6">
+                <Swiper
+                  modules={[Navigation, Pagination, Autoplay]}
+                  spaceBetween={50}
+                  slidesPerView={1}
+                  autoplay={{ delay: 3000 }}
+                  pagination={{ clickable: true }}
+                  loop={true}
+                  breakpoints={{
+                    768: { slidesPerView: 1 },
+                    992: { slidesPerView: 1 }
+                  }}
+                >
+                  {testimonialData.map((item, index) => (
+                    <SwiperSlide key={index}>
+                      <div className="testimonial-wrapper testimonial-style-2">
+                        <div className="testimonial-ratings">
+                          <i className="fa-solid fa-star" />
+                          <i className="fa-solid fa-star" />
+                          <i className="fa-solid fa-star" />
+                          <i className="fa-solid fa-star" />
+                          <i className="fa-regular fa-star" />
+                        </div>
+                        <div className="testimonial-quote">
+                          <img
+                            className="img-fluid"
+                            src="images/quote-icon-01.png"
+                            alt=""
+                          />
+                        </div>
+                        <div className="testimonial-content">
+                          <p>{item.content}</p>
+                        </div>
+                        <div className="testimonial-author">
+                          <div className="author-info">
+                            <h6 className="author-name">{item.name}</h6>
+                            <span className="author-position">{item.position}</span>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
+              </div>
+              <div className="col-md-6">
+                <div className="section-title text-center">
+                  <span className="sub-title justify-content-center">
+                    <img className="img-fluid" src="images/subtitle-icon.png" alt="" />
+                    Our Testimonial
+                  </span>
+                  <h2 className="title">
+                    What Our Clients Say
+                  </h2>
+                  <p>Trusted by startups, SMEs, and enterprises — we build solutions that speak for themselves, and so do our clients.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <br/>
+      <br />
     </>
   )
 }

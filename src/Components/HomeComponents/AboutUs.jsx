@@ -1,5 +1,7 @@
 import CountUp from 'react-countup';
 import CommonBtn from '../../Common/CommonBtn';
+import BackToTop from '../../Common/BackToTop';
+import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
     return (
@@ -38,9 +40,12 @@ const AboutUs = () => {
                                         organizations with the tools and expertise needed to thrive in
                                         today’s fast-paced digital world.
                                     </p>
-                                    <div className="d-flex justify-content-center mt-5 ms-sm-5 ms-0">
-                                        <CommonBtn btntxt="About Us" link="/about" />
-                                    </div>
+                                    {/* <div className="d-flex justify-content-center mt-5 ms-sm-5 ms-0">
+                                        <CommonBtn btntxt="About Us" link="/about" onClick={<BackToTop/>}/>
+                                    </div> */}
+                                    {/* <div className="action-hamburger d-flex justify-content-center my-3">
+                                        <Link to="/about" onClick={<BackToTop />} className='requestBTn  px-5 py-2 mt-2' >More</Link>
+                                    </div> */}
                                 </div>
                             </div>
 

@@ -1,7 +1,16 @@
 import { Link } from 'react-router-dom'
-import BackToTop from './BackToTop'
 
 const Footer = () => {
+
+ const scrollTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    }
+
+
+
   return (
     <>
       <footer className="site-footer footer-dark pb-lg-4  mb-0">
@@ -53,19 +62,19 @@ const Footer = () => {
                   <div className="widget widget-menu">
                     <h6 className="widget-title">Quick Links</h6>
                     <ul className="list-unstyled list-col-3 mb-0">
-                      <li><Link to="/services/management-service" onClick={<BackToTop/>}>Management Service</Link></li>
-                      <li><Link to="/services/it-consulting" onClick={<BackToTop/>}>IT Consulting</Link></li>
-                      <li><Link to="/services/app-development" onClick={<BackToTop/>}>Service</Link></li>
-                      <li><Link to="/serve/education" onClick={<BackToTop/>}>Industries</Link></li>
+                      <li><Link to="/services/management-service" onClick={scrollTop}>Management Service</Link></li>
+                      <li><Link to="/services/it-consulting" onClick={scrollTop}>IT Consulting</Link></li>
+                      <li><Link to="/services/app-development" onClick={scrollTop}>Service</Link></li>
+                      <li><Link to="/serve/education" onClick={scrollTop}>Industries</Link></li>
                       {/* <li><Link to="/contact" onClick={<BackToTop/>}>Contact</Link></li> */}
-                      <li><Link to="/serve/finance" onClick={<BackToTop/>}>Finance</Link></li>
-                      <li><Link to="/services/it-infrastructure-setup" onClick={<BackToTop/>}>It Infra Setup</Link></li>
-                      <li><Link to="/services/mixed-reality" onClick={<BackToTop/>}>Mixed Reality</Link></li>
-                      <li><Link to="/services/digital-marketing" onClick={<BackToTop/>}>Digital Marketing</Link></li>
-                      <li><Link to="/" onClick={<BackToTop/>}>Privacy Policy</Link></li>
-                      <li><Link to="/serve/retail" onClick={''}>Retail</Link></li>
-                      <li><Link to="/services/platform-optimization" onClick={<BackToTop/>}>Platform Optimization</Link></li>
-                      <li><Link to="/" onClick={<BackToTop/>}>Terms and conditions</Link></li>
+                      <li><Link to="/serve/finance" onClick={scrollTop}>Finance</Link></li>
+                      <li><Link to="/services/it-infrastructure-setup" onClick={scrollTop}>It Infra Setup</Link></li>
+                      <li><Link to="/services/mixed-reality" onClick={scrollTop}>Mixed Reality</Link></li>
+                      <li><Link to="/services/digital-marketing" onClick={scrollTop}>Digital Marketing</Link></li>
+                      <li><Link to="/" onClick={scrollTop}>Privacy Policy</Link></li>
+                      <li><Link to="/serve/retail" onClick={scrollTop}>Retail</Link></li>
+                      <li><Link to="/services/platform-optimization" onClick={scrollTop}>Platform Optimization</Link></li>
+                      <li><Link to="/" onClick={scrollTop}>Terms and conditions</Link></li>
                     </ul>
                   </div>
                 </div>

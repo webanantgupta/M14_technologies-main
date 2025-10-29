@@ -26,7 +26,7 @@ const Blogcontent = ({ blog }) => {
 
                     <section className="space-ptb ellipse-top ellipse-bottom ">
                         <div className="container ">
-                            <div className="row">
+                            <div className="row" style={{ margin: "50px 0"}}>
                                 {
                                     blog.map((obj, index) => {
                                         return (
@@ -51,10 +51,10 @@ const Blogcontent = ({ blog }) => {
                                                             </div>
                                                             <div className="blog-action-info">
                                                                 <h5 className="post-category">
-                                                                    <span onClick={() => { handleClick(obj), <BackToTop /> }} style={{ cursor: 'pointer' }} className="text-light">{obj.category}</span>
+                                                                    <span onClick={() => { handleClick(obj), scrollTop() }} style={{ cursor: 'pointer' }} className="text-light">{obj.category}</span>
                                                                 </h5>
                                                                 <div className="post-link">
-                                                                    <span className="btn-arrow" style={{ cursor: 'pointer' }} onClick={() => { handleClick(obj); return (<BackToTop />) }}>
+                                                                    <span className="btn-arrow" style={{ cursor: 'pointer' }} onClick={() => { handleClick(obj);  }}>
                                                                         <svg
                                                                             width={17}
                                                                             height={16}

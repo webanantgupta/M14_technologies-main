@@ -1,6 +1,7 @@
 import { useFormik } from 'formik'
 import toast from "react-hot-toast"
 import Formvalidation from './Formvalidation'
+import { Link } from 'react-router-dom'
 
 
 const ContactUs = () => {
@@ -14,14 +15,14 @@ const ContactUs = () => {
   const initialValues = {
     name: "",
     email: "",
-    password: "",
+    phone: "",
     message: ""
   }
 
   const { values, handleBlur, handleChange, errors, handleSubmit, touched } = useFormik({
     initialValues: initialValues,
     validationSchema: Formvalidation,
-    onSubmit: (values , {resetForm}) => {
+    onSubmit: (values, { resetForm }) => {
       console.log(values);
       toast.success("Details submitted successfully")
       resetForm();
@@ -65,17 +66,10 @@ const ContactUs = () => {
     Contact Us */}
           <section className="space-ptb z-index-2">
             <div className="container">
-              <div className="row">
-                <div className="col-xl-6 col-lg-5">
+              <div className="row" style={{ marginTop: "100px" }}>
+                <div className="col-xl-6 col-lg-5 mt-5">
                   <div className="section-title is-sticky">
-                    <span className="sub-title">
-                      <img
-                        className="img-fluid"
-                        src="images/subtitle-icon.png"
-                        alt=""
-                      />{" "}
-                      Our Direction
-                    </span>
+
                     <h2 className="title">
                       {" "}
                       Get in touch with us. We love talking about digital strategy{" "}
@@ -146,7 +140,7 @@ const ContactUs = () => {
             <div className="space-pb ellipse-bottom">
               <div className="container">
                 <div className="row justify-content-center">
-                  <div className="col-md-10">
+                  <div className="col-md-10" style={{ marginTop: "100px" }}>
                     <div className="section-title text-center">
                       <span className="sub-title d-flex justify-content-center">
                         <img
@@ -196,7 +190,7 @@ const ContactUs = () => {
 
                           <div className="col-md-4">
                             <input
-                              type="text"
+                              type="number"
                               name='phone'
                               value={values.phone}
                               onBlur={handleBlur}
@@ -224,9 +218,9 @@ const ContactUs = () => {
 
                           </div>
 
-                          <div className="col-lg-12">
+                          {/* <div className="col-lg-12">
                             <button className="btn btn-effect mt-5" href="#">
-                              <span>Send Massage</span>
+                              <span>Send Message</span>
                               <svg
                                 width={20}
                                 height={22}
@@ -258,22 +252,41 @@ const ContactUs = () => {
                                 </defs>
                               </svg>
                             </button>
-                          </div>
+                          </div> */}
                         </div>
                       </form>
+                      {/* button */}
+                      <div className="action-hamburger d-flex justify-content-center my-3">
+                        <Link to="#" className='requestBTn  px-5 py-2' onClick={() => { handleSubmit() }} >Submit</Link>
+                      </div>
+
                     </div>
                   </div>
                 </div>
-                <div className="row mt-5">
+                <div className="section-title text-center">
+                  <span className="sub-title d-flex justify-content-start">
+                    <img
+                      className="img-fluid"
+                      src="images/subtitle-icon.png"
+                      alt=""
+                    />{" "}
+                    Our Direction
+                  </span>
+
+                </div>
+
+
+                <div className="row ">
                   <div className="col-md-12">
                     <div className="map_here">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.2422859960975!2d80.93417747882752!3d26.888144400991862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3999574966b00d11%3A0x877ecada07e90d24!2sOneBigBit%20Technologies%20Pvt.%20Ltd!5e1!3m2!1sen!2sin!4v1760443147153!5m2!1sen!2sin" width="600" height="450" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.2422859960975!2d80.93417747882752!3d26.888144400991862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3999574966b00d11%3A0x877ecada07e90d24!2sOneBigBit%20Technologies%20Pvt.%20Ltd!5e1!3m2!1sen!2sin!4v1760443147153!5m2!1sen!2sin" width="600" height="450" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </section>
+
           {/*=================================
     Contact Us */}
         </div>

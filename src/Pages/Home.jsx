@@ -46,15 +46,15 @@ const Home = () => {
 
           <div className="content-wrapper">
             <AboutUs />
-            <ServicesInfo />
             <HomeServices />
+            {/* <ServicesInfo /> */}
             {/* <CaseStudies/> */}
-<Testimonial/>
-          
-           
-         
-         
-     
+            <Testimonial />
+
+
+
+
+
             {/*=================================
     FAQ */}
           </div>

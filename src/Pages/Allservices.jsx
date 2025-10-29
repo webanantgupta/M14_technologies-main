@@ -52,7 +52,7 @@ console.log(serviceData);
                     <section className="space-ptb ellipse-bottom">
                         <div className="container">
                             <div className="row justify-content-start">
-                                <div className="col-lg-12">
+                                <div className="col-lg-12" style={{margin: "50px 0"}}>
                                     <div className="services grid-wrapper grid-xl-4 grid-lg-3 grid-md-2 grid-sm-1">
                                         {serviceData?.map((obj) => (
                                             <ServiceCard title={obj.title} des={obj.short_description} link={obj.link} />

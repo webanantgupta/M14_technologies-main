@@ -1,6 +1,9 @@
 import ServiceCard from './ServiceCard'
 import CommonBtn from '../../Common/CommonBtn'
 import serviceData from "../ServicesJson/service.json"
+import ServicesInfo from './ServicesInfo';
+import { Link } from 'react-router-dom';
+import BackToTop from '../../Common/BackToTop';
 
 
 const HomeServices = () => {
@@ -26,13 +29,19 @@ const HomeServices = () => {
     //     }
     // ]
     console.log(serviceData);
-    
-    const serviceData1 = serviceData.slice(0,2)
+
+    const serviceData1 = serviceData.slice(0, 2)
     console.log(serviceData1);
-    
-    const serviceData2 = serviceData.slice(2,4)
+
+    const serviceData2 = serviceData.slice(2, 4)
     console.log(serviceData2);
-    
+
+      const scrollTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    }
 
     return (
         <>
@@ -64,7 +73,10 @@ const HomeServices = () => {
                                             <p>
                                                 We offer a full suite of innovative and result-driven technology services designed to empower startups, small businesses, and enterprises alike. Our team blends creativity, strategy, and engineering excellence to deliver digital products that are not only visually appealing but also highly functional and scalable. Whether you’re launching a new brand, expanding your digital presence, or modernizing enterprise systems — we provide tailored solutions that align with your goals.
                                             </p>
-                                            <CommonBtn btntxt="View All" link="/services" />
+                                            {/* <CommonBtn btntxt="View All" link="/services" /> */}
+                                            <div className="action-hamburger d-flex justify-content-center my-3">
+                                                <Link to="/services" className='requestBTn  px-5 py-2 mt-5' onClick={scrollTop} >View All</Link>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -80,7 +92,7 @@ const HomeServices = () => {
                                         <div className="col-sm-6">
                                             <div className="services grid-wrapper service-top-space">
                                                 {serviceData2?.map((obj) => (
-                                                    <ServiceCard title={obj.title} des={obj.short_description} link={obj.link}/>
+                                                    <ServiceCard title={obj.title} des={obj.short_description} link={obj.link} />
                                                 ))}
                                             </div>
                                         </div>
@@ -88,6 +100,7 @@ const HomeServices = () => {
                                 </div>
                             </div>
                         </div>
+                        <ServicesInfo />
                     </div>
                 </section>
             </div>

@@ -1,33 +1,37 @@
 import { Link } from 'react-router-dom';
-import {useState} from "react";
+import { useState } from "react";
 import Modalpopup from './Modalpopup';
+import SideMenu from './SideMenu';
 
 const Header = () => {
-const [modalOpen, setModalOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
+  const [openMenu, setOpenMenu] = useState(false);        // this is for when mobile menu is open/close
+  const toggleMenu = () => {
+    setOpenMenu(!openMenu);
+  }
+  const handleModal = (e) => {
+    e.preventDefault();
+    setModalOpen(true);
+  }
 
-const handleModal = (e) => {
-e.preventDefault();
-  setModalOpen(true);
-}
-
-const handleClose = () =>{
-  setModalOpen(false);
-}
+  const handleClose = () => {
+    setModalOpen(false);
+  }
 
 
   return (
     <>
-          
+
       <header className="header header-default header-sticky header-absolute">
         <div className="header-inner" >
           <div className="site-logo" style={{ width: "20%" }}>
             <Link className="navbar-brand" to="/">
-              <img className="img-fluid" src="/images/white_logo.png" alt="logo" style={{ height: '90px', flexGrow: 1  }} />
+              <img className="img-fluid" src="/images/white_logo.png" alt="logo" style={{ height: '90px', flexGrow: 1 }} />
               {/* <h4 className='gradient-text'>M14 Technologies</h4> */}
             </Link>
           </div>
 
-          <div className="site-menu d-none d-xl-block" style={{ width: "60%"  }} >
+          <div className="site-menu d-none d-xl-block" style={{ width: "60%" }} >
             <ul className="main-menu p-0" >
               <li className="nav-item active">
                 <Link className="nav-link" to="/">
@@ -36,7 +40,7 @@ const handleClose = () =>{
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/about">
-                  About Us 
+                  About Us
                 </Link>
                 {/* <ul className='submenu'>
                   <li>
@@ -56,12 +60,12 @@ const handleClose = () =>{
                   </li>
                 </ul> */}
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/services">
+              <li className="nav-item ">
+                <Link className="nav-link " to="/services">
                   Services <i className="fa-solid fa-chevron-down" />
                 </Link>
-                <ul className="submenu">
-                   <li>
+                <ul className="submenu ">
+                  <li>
                     <Link className="nav-link" to="/services/app-development">
                       App Development
                     </Link>
@@ -164,7 +168,7 @@ const handleClose = () =>{
             </ul>
           </div>
 
-          <div className="site-action d-none d-xl-block" style={{ width: "20x"  }}>
+          <div className="site-action d-none d-xl-block" style={{ width: "20x" }}>
             <div className="action-hamburger">
               <Link to="#" className='requestBTn' onClick={handleModal}>Get A Quote</Link>
               {/* <a
@@ -180,16 +184,13 @@ const handleClose = () =>{
                 </span>
               </a> */}
             </div>
-            {<Modalpopup handleClose={handleClose} modalOpen={modalOpen}/>}
+            {<Modalpopup handleClose={handleClose} modalOpen={modalOpen} />}
           </div>
           <div className="mobile-action d-block d-xl-none">
             <div className="mobile-hamburger">
               <a
                 className="hamburger"
-                href="#"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#menuOffcanvas"
-                aria-controls="menuOffcanvas"
+                href="#" onClick={toggleMenu}
               >
                 <span className="hamburger-container">
                   <span className="hamburger-inner" />
@@ -200,6 +201,7 @@ const handleClose = () =>{
           </div>
         </div>
       </header>
+      <SideMenu menuOpen={openMenu} toggleMenu={toggleMenu} />
     </>
   )
 }
