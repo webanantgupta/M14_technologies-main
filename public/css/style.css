@@ -2233,6 +2233,14 @@ blockquote.blockquote-style-1:before {
   transition: all 0.3s ease-in-out;
 }
 
+@media (max-width:768px){
+  .blog-post-img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  }
+}
+
 .blog-post-wrapper.blog-style-1 .blog-action-info {
   display: flex;
   align-items: center;
@@ -10535,7 +10543,19 @@ body {
 /* styling the component here  */
 .page_container {
   padding: 40px;
+}
 
+.page_content{
+  margin: 40px 0;
+}
+
+.page_content p{
+  margin-bottom: 0px !important;
+  font-size:larger;
+}
+
+.page_content svg{
+  font-size: 40px;
 }
 
 

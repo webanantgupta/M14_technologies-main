@@ -1,3 +1,5 @@
+import { SiTicktick } from "react-icons/si";
+
 
 const Pagecontent = ({ service }) => {
     console.log(service);
@@ -14,14 +16,13 @@ const Pagecontent = ({ service }) => {
                         <p>{service.overview}</p>
                     </div>
 
-                    <div className="page_image m">
+                    <div className="page_image ">
                         <img src={service.banner_image} alt={service.title} />
                     </div>
                 </div>
 
             </div>
             )}
-           
 
             {/* our service include */}
 
@@ -45,6 +46,15 @@ const Pagecontent = ({ service }) => {
                 </section>
             )
             }
+
+            {/* note */}
+
+             <div className="page_content d-flex justify-content-center gap-5 align-items-center">
+                <SiTicktick />
+                <div>
+                    <p>{service.content}</p>
+                </div>
+            </div>
 
 
             {/* keyfeatures section */}

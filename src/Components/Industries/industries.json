@@ -5,6 +5,14 @@
     "short_description": "Empowering institutions with smart, scalable, and engaging digital learning solutions.",
     "banner_image": "https://imageio.forbes.com/specials-images/imageserve/64638cd29b4d21bc9bc2ff1c//960x0.jpg?height=473&width=711&fit=bounds",
     "overview": "M14 Technologies delivers innovative Education Technology (EdTech) solutions to schools, colleges, and corporate learning environments. We design and develop Learning Management Systems (LMS), virtual classrooms, and AI-powered personalized learning platforms. Our goal is to make education more accessible, interactive, and data-driven, supporting educators and students alike.",
+    "content": "Our goal is to make education smarter, more connected, and accessible through the power of technology.",
+    "our_service_title": "We Provide",
+    "our_service_include" : [
+      "Website & Portal Development: Seamless platforms for admissions, attendance, and academic management.",
+      "Social Media & Digital Presence: Building trust and visibility through targeted digital campaigns and content strategies.",
+      "IT Infrastructure & Support: Reliable systems, networks, and technical assistance to ensure smooth daily operations.",
+      "E-Learning Solutions: Interactive and secure digital tools to support virtual learning environments."
+    ],
     "key_features": [
       "Custom Learning Management System (LMS) development",
       "AI-driven personalized learning experiences",
@@ -65,6 +73,14 @@
     "short_description": "Digital transformation services that enhance patient care, data security, and operational efficiency.",
     "banner_image": "https://digiscorp.com/wp-content/uploads/2024/10/cover-image-ultimate-guide-to-healthcare-it-solutions.webp",
     "overview": "M14 Technologies partners with healthcare providers to implement technology solutions that improve patient outcomes and streamline clinical workflows. From Electronic Health Records (EHR) systems to telemedicine platforms and HIPAA-compliant data management, we help medical organizations leverage technology safely and effectively.",
+    "content":"We help healthcare organizations embrace innovation while maintaining the highest standards of reliability and confidentiality.",
+    "our_service_title": "We Provide",
+    "our_service_include" : [
+     "Website & Portal Development: Patient-friendly platforms for appointments, reports, and communication.",
+     "IT Infrastructure & Support: Reliable systems that ensure uninterrupted healthcare operations and secure data management.",
+     "Digital Presence Management: Building trust and credibility through optimized online visibility and reputation management.",
+     "Data Security & Compliance: Implementing advanced cybersecurity measures to protect sensitive patient information."
+    ],
     "key_features": [
       "Electronic Health Record (EHR) system integration",
       "Telemedicine and remote consultation platforms",

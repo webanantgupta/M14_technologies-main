@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom"
-import BackToTop from "./BackToTop";
+
 
 
 const Blogcontent = ({ blog }) => {
-    // console.log(blog,'blog hee')
+    console.log(blog,'blog hee')
     const navigate = useNavigate();
 
     const handleClick = (obj) => {
@@ -19,6 +19,8 @@ const Blogcontent = ({ blog }) => {
         });
     }
 
+    // const sortDate = [...blog.date ] 
+
     return (
         <div>
             {blog ? (
@@ -33,7 +35,7 @@ const Blogcontent = ({ blog }) => {
                                             <>
                                                 <div className="col-lg-4 col-md-6 mb-5" key={index} >
                                                     <div className="blog-items ">
-                                                        <div className="blog-post-wrapper blog-style-1">
+                                                        <div className="blog-post-wrapper blog-style-1" style={{height: "600px"}} >
 
                                                             <div className="blog-post-info">
                                                                 <div className="post-meta">

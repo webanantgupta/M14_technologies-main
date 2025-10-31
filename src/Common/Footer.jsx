@@ -104,7 +104,7 @@ const Footer = () => {
                         />
                       </i>
                       <span className="info">
-                        <span>99999999999 </span>
+                        <Link style={{color: "white", fontWeight: "bold"}}>99999999999 </Link>
                       </span>
                     </li>
                     <li>
@@ -116,7 +116,7 @@ const Footer = () => {
                         />
                       </i>
                       <span className="info">
-                        <span>Info@m14technologies.com </span>24x7 online support
+                        <Link style={{color:"white", fontWeight: "bold"}}>Info@m14technologies.com </Link>24x7 online support
                       </span>
                     </li>
                   </ul>
