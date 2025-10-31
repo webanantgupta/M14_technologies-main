@@ -97,7 +97,7 @@ function Modalpopup({ handleClose, modalOpen }) {
            
         </form>
       </ModalBody>
-      <ModalFooter className='text-center'>
+      <ModalFooter>
         {/* <Button color="primary" >
             Do Something
           </Button>{' '} */}

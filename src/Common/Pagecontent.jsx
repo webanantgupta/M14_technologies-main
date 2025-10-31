@@ -5,7 +5,8 @@ const Pagecontent = ({ service }) => {
     return (
         <div className='page_container'>
             {/* image here with title */}
-            <div className='page_banner'>
+            {service.banner_image && service.title && (
+                    <div className='page_banner'>
 
                 <div className="page_flex">
                     <div className="page_title">
@@ -19,6 +20,8 @@ const Pagecontent = ({ service }) => {
                 </div>
 
             </div>
+            )}
+           
 
             {/* our service include */}
 
