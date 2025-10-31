@@ -20,6 +20,8 @@ import Blog from '../Pages/blog/Blog'
 import { Toaster } from 'react-hot-toast'
 import Appdev from '../Pages/newservice/appdevelopment/Appdev'
 import Viewblog from '../Pages/Viewblog'
+import PrivacyPolicy from '../Pages/PrivacyPolicy'
+import TermsAndCondition from '../Pages/TermsAndCondition'
 // import { Modal } from 'reactstrap'
 // import Modalpopup from '../Common/Modalpopup'
 
@@ -51,6 +53,8 @@ const AllRoutes = () => {
                         <Route path='/contact' element={<ContactUs />} />
                         <Route path="/mixed" element={<Mixed />} />
                         <Route path='/viewblog' element={<Viewblog/>}/>
+                        <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
+                        <Route  path='/terms-conditions' element={<TermsAndCondition/>}/>
                         {/* <Route path='/modal-popup' element={<Modalpopup/>}/> */}
                     </Routes>
                 </>

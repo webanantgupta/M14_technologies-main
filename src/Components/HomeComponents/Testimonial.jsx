@@ -89,13 +89,22 @@ const Testimonial = () => {
               </div>
               <div className="col-md-6">
                 <div className="section-title text-center">
-                  <span className="sub-title justify-content-center">
-                    <img className="img-fluid" src="images/subtitle-icon.png" alt="" />
-                    Our Testimonial
-                  </span>
-                  <h2 className="title">
-                    What Our Clients Say
-                  </h2>
+                  <div className='testimonial_heading'>
+                    <div>
+                      <span className="sub-title justify-content-sm-center justify-content-md-end justify-content-lg-end">
+                        <img className="img-fluid" src="images/subtitle-icon.png" alt="logo"/>
+                        Our Testimonial
+                      </span>
+                    </div>
+                    <div>
+                      <h2 className="title text-sm-center text-md-end text-lg-end" style={{ textAlign: "right" }}>
+                        What Our Clients Say
+                      </h2>
+                    </div>
+
+                  </div>
+
+
                   <p>Trusted by startups, SMEs, and enterprises — we build solutions that speak for themselves, and so do our clients.</p>
                 </div>
               </div>

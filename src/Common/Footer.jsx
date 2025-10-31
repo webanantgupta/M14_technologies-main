@@ -71,10 +71,10 @@ const Footer = () => {
                       <li><Link to="/services/it-infrastructure-setup" onClick={scrollTop}>It Infra Setup</Link></li>
                       <li><Link to="/services/mixed-reality" onClick={scrollTop}>Mixed Reality</Link></li>
                       <li><Link to="/services/digital-marketing" onClick={scrollTop}>Digital Marketing</Link></li>
-                      <li><Link to="/" onClick={scrollTop}>Privacy Policy</Link></li>
+                      <li><Link to="/privacy-policy" onClick={scrollTop}>Privacy Policy</Link></li>
                       <li><Link to="/serve/retail" onClick={scrollTop}>Retail</Link></li>
                       <li><Link to="/services/platform-optimization" onClick={scrollTop}>Platform Optimization</Link></li>
-                      <li><Link to="/" onClick={scrollTop}>Terms and conditions</Link></li>
+                      <li><Link to="/terms-conditions" onClick={scrollTop}>Terms and conditions</Link></li>
                     </ul>
                   </div>
                 </div>
