@@ -12,33 +12,33 @@ function App() {
   const containerRef = useRef(null);
   const location = useLocation();
 
-  // useEffect(() => {
-  //   if (containerRef.current) {
-  //     const scroll = new LocomotiveScroll({
-  //       el: containerRef.current,
-  //       smooth: true,
-  //       lerp: 0.04,
-  //     });
+  useEffect(() => {
+    if (containerRef.current) {
+      const scroll = new LocomotiveScroll({
+        el: containerRef.current,
+        smooth: true,
+        lerp: 0.04,
+      });
 
-  //     // Scroll to top on route change
-  //     scroll.scrollTo(0, { duration: 0, disableLerp: true });
-  //     // Update scroll on route change
-  //     scroll.update();
+      // Scroll to top on route change
+      scroll.scrollTo(0, { duration: 0, disableLerp: true });
+      // Update scroll on route change
+      scroll.update();
 
-  //     return () => {
-  //       scroll.destroy();
-  //     };
-  //   }
-  // }, [location.pathname]);
+      return () => {
+        scroll.destroy();
+      };
+    }
+  }, [location.pathname]);
   
   return (
     <>
       {/* <AllRoutes /> */}
       <Header />
       <SideMenu />
-      {/* <div data-scroll-container ref={containerRef}> */}
+      <div data-scroll-container ref={containerRef}>
         <AllRoutes />
-      {/* </div> */}
+      </div>
 
     </>
   );
