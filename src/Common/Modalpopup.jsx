@@ -11,7 +11,7 @@ import toast from 'react-hot-toast';
 function Modalpopup({ handleClose, modalOpen }) {
 
   const [captcha, setCaptcha] = useState(null);
-
+  const SITE_KEY = import.meta.env.VITE_SITE_KEY;
   const handleCaptchaChange = (value) => {
     // console.log(value);
     setCaptcha(value);
@@ -32,7 +32,7 @@ function Modalpopup({ handleClose, modalOpen }) {
         toast.error("Please verify that you are not a robot.");
         return;
       }
-  console.log(values);
+      console.log(values);
       handleClose();
     }
   })
@@ -65,7 +65,7 @@ function Modalpopup({ handleClose, modalOpen }) {
               placeholder='Enter Mobile No'
               name='phone' maxLength={10} minLength={10}
               onBlur={handleBlur}
-              onChange={handleChange} 
+              onChange={handleChange}
               values={values.phone}
             />
             {errors.phone && touched.phone ? (<small className='form_element_error'>{errors.phone}</small>) : (null)}
@@ -94,7 +94,7 @@ function Modalpopup({ handleClose, modalOpen }) {
             />
             {errors.message && touched.message ? (<small className='form_element_error'>{errors.message}</small>) : (null)}
           </div>
-           
+
         </form>
       </ModalBody>
       <ModalFooter>
@@ -108,12 +108,12 @@ function Modalpopup({ handleClose, modalOpen }) {
           <div className="action-hamburger last_captcha my-3">
             <div className='captcha'>
               <ReCAPTCHA
-                sitekey='6LdoDvsrAAAAAGAMJQSBNgdMCSdc5d4zVbBDQAbQ'
+                sitekey={SITE_KEY}
                 onChange={handleCaptchaChange}
               />
             </div>
             <div>
-              <Link to="#" className='requestBTn  px-4 py-2'  onClick={() => { handleSubmit() }} >Submit</Link>
+              <Link to="#" className='requestBTn  px-4 py-2' onClick={() => { handleSubmit() }} >Submit</Link>
             </div>
           </div>
         </div>

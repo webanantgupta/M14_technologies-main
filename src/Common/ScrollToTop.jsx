@@ -1,11 +1,8 @@
-import React from 'react'
+ const ScrollTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    }
 
-const ScrollToTop = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default ScrollToTop
+     export default ScrollTop

@@ -10,7 +10,3 @@ Currently, two official plugins are available:
 
 
 
-google captche
-<!-- 
-Site Key - 6LdoDvsrAAAAAGAMJQSBNgdMCSdc5d4zVbBDQAbQ
-Copy secret key - 6LdoDvsrAAAAAImDuPCpYxH6ZF_OsMd3X8m6IHHu -->

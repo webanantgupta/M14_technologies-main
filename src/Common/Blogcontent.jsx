@@ -10,8 +10,8 @@ const Blogcontent = ({ blog }) => {
         scrollTop();
         console.log(obj);
         navigate("/viewblog", { state: obj });
-
     }
+    
     const scrollTop = () => {
         window.scrollTo({
             top: 0,

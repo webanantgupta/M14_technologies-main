@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 
+
 const Footer = () => {
 
  const scrollTop = () => {
@@ -92,7 +93,7 @@ const Footer = () => {
                         />
                       </i>
                       <span className="info">
-                        <span>C-25, Aliganj, Lucknow <br /> Uttar Pradesh India - 226024 </span>  
+                        <Link to={"https://maps.app.goo.gl/fCCVkB66rpCCQDrj7"} style={{color: "white", fontWeight: "bold", cursor: "pointer"}} target='_blank'>467/95, Mehtab Bagh Colony<br />Lucknow, Uttar Pradesh India - 226024 </Link>  
                       </span>
                     </li>
                     <li>
@@ -104,7 +105,7 @@ const Footer = () => {
                         />
                       </i>
                       <span className="info">
-                        <Link style={{color: "white", fontWeight: "bold"}}>99999999999 </Link>
+                        <Link to={"tel:+7705009900"} style={{color: "white", fontWeight: "bold"}}>+91-770-500-9900 </Link>
                       </span>
                     </li>
                     <li>
@@ -116,7 +117,7 @@ const Footer = () => {
                         />
                       </i>
                       <span className="info">
-                        <Link style={{color:"white", fontWeight: "bold"}}>Info@m14technologies.com </Link>24x7 online support
+                        <Link to={"mailto:mirza@m.14.tech"} style={{color:"white", fontWeight: "bold"}}>mirza@m.14.tech </Link>24x7 online support
                       </span>
                     </li>
                   </ul>
@@ -138,7 +139,7 @@ const Footer = () => {
               </div>
               <div className="col-lg-12 text-lg-center text-center">
                 <p className=''>
-                  Copyright © 2025 All Rights Reserved  - <Link to="/">M14 Technologies Pvt. Ltd.</Link>
+                  Copyright © 2025 All Rights Reserved  - <Link to="/" onClick={scrollTop}>M14 Technologies Pvt. Ltd.</Link>
                 </p>
               </div>
             </div>

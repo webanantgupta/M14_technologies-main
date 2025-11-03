@@ -10,7 +10,7 @@ console.log(industry);
   return (
     <div>
       <PageHeader title={"Education"}/>
-    <Pagecontent service={industry}/>
+      <Pagecontent service={industry}/>
 
     </div>
   )

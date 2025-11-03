@@ -8,20 +8,20 @@ const Pagecontent = ({ service }) => {
         <div className='page_container'>
             {/* image here with title */}
             {service.banner_image && service.title && (
-                    <div className='page_banner'>
+                <div className='page_banner'>
 
-                <div className="page_flex">
-                    <div className="page_title">
-                        <h2>{service.title}</h2>
-                        <p>{service.overview}</p>
+                    <div className="page_flex">
+                        <div className="page_title">
+                            <h2>{service.title}</h2>
+                            <p>{service.overview}</p>
+                        </div>
+
+                        <div className="page_image ">
+                            <img src={service.banner_image} alt={service.title} />
+                        </div>
                     </div>
 
-                    <div className="page_image ">
-                        <img src={service.banner_image} alt={service.title} />
-                    </div>
                 </div>
-
-            </div>
             )}
 
             {/* our service include */}
@@ -48,13 +48,15 @@ const Pagecontent = ({ service }) => {
             }
 
             {/* note */}
-
-             <div className="page_content d-flex justify-content-center gap-5 align-items-center">
-                <SiTicktick />
-                <div>
-                    <p>{service.content}</p>
+            {service.content && (
+                <div className="page_content d-flex justify-content-start gap-5 align-items-center">
+                    <SiTicktick />
+                    <div>
+                        <p>{service.content}</p>
+                    </div>
                 </div>
-            </div>
+            )}
+
 
 
             {/* keyfeatures section */}
@@ -94,7 +96,7 @@ const Pagecontent = ({ service }) => {
 
 
             {/* technology section */}
-{/* 
+            {/* 
             {service.technologies_used && (
                 <section className='technology_container'>
                     <div>
@@ -110,7 +112,6 @@ const Pagecontent = ({ service }) => {
 
                 </section>
             )} */}
-
 
 
         </div>
