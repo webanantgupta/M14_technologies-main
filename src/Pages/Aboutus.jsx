@@ -6,7 +6,7 @@ const Aboutus = () => {
     <>
       <div className="site-content">
         <PageHeader title="About Us" />
-        <div className="content-wrapper">
+        <div className="content-wrapper about_us">
           <section className="space-pt">
             <div className="container">
               <div className="row justify-content-between">
@@ -92,7 +92,7 @@ const Aboutus = () => {
               </div>
             </div>
           </section>
-          <section className="space-pt bg-white ellipse-top">
+          <section className="mission space-pt bg-white ellipse-top">
             <div className="space-pb ellipse-bottom">
               <div className="container">
                 <div className="row">

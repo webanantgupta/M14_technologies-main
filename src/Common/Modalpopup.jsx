@@ -11,7 +11,7 @@ import toast from 'react-hot-toast';
 function Modalpopup({ handleClose, modalOpen }) {
 
   const [captcha, setCaptcha] = useState(null);
-  const SITE_KEY = import.meta.env.VITE_SITE_KEY;
+  // const SITE_KEY = import.meta.env.VITE_SITE_KEY;
   const handleCaptchaChange = (value) => {
     // console.log(value);
     setCaptcha(value);
@@ -108,7 +108,8 @@ function Modalpopup({ handleClose, modalOpen }) {
           <div className="action-hamburger last_captcha my-3">
             <div className='captcha'>
               <ReCAPTCHA
-                sitekey={SITE_KEY}
+              sitekey='6LdoDvsrAAAAAGAMJQSBNgdMCSdc5d4zVbBDQAbQ'
+                
                 onChange={handleCaptchaChange}
               />
             </div>
