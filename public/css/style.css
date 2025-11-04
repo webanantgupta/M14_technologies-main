@@ -1431,12 +1431,22 @@ blockquote.blockquote-style-1:before {
     margin-right: 40px;
   }
 }
+ 
+.contact_us{
+  margin-top: 100px;
+}
+
+@media (max-width:768px){
+  .contact_us{
+    margin-top: 0;
+  }
+}
 
 @media (max-width: 991px) {
 
   /* Page Section Padding */
   .space-ptb {
-    padding: 90px 0;
+    padding: 1px 0;
   }
 
   .space-pt {
@@ -10950,3 +10960,7 @@ body {
     columns: 2 !important;
   } */
 }
+
+
+
+

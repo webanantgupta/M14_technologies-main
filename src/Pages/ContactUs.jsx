@@ -61,7 +61,7 @@ const ContactUs = () => {
     Contact Us */}
           <section className="space-ptb z-index-2">
             <div className="container">
-              <div className="row" style={{ marginTop: "100px" }}>
+              <div className="row contact_us">
                 <div className="col-xl-6 col-lg-5 mt-5">
                   <div className="section-title is-sticky">
 
@@ -135,7 +135,7 @@ const ContactUs = () => {
             <div className="space-pb ellipse-bottom">
               <div className="container">
                 <div className="row justify-content-center">
-                  <div className="col-md-10" style={{ marginTop: "100px" }}>
+                  <div className="col-md-10">
                     <div className="section-title text-center">
                       <span className="sub-title d-flex justify-content-center">
                         <img
