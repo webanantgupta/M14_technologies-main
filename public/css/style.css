@@ -1633,7 +1633,7 @@ blockquote.blockquote-style-1:before {
   }
 
   .space-pt {
-    padding: 50px 0 0;
+    padding: 160px 0 0;
   }
 
   .space-pb {
@@ -7757,6 +7757,9 @@ form.form-dark .form-control:focus {
   display: none;
 }
 
+.widget{
+  cursor: pointer;
+}
 
 
 @media (max-width:768px){
@@ -7986,7 +7989,7 @@ form.form-dark .form-control:focus {
     font-size: 30px;
     line-height: 40px;
     left: 20%;
-    bottom: -30%;
+    bottom: -18%;
   }
 
   /* Main Banner 3 ----------*/
@@ -8017,7 +8020,16 @@ form.form-dark .form-control:focus {
   }
 }
 
-@media (max-width:397px){
+@media (min-width:324px) and (max-width:397px){
+  .main-banner-1 .banner-title {
+        font-size: 30px;
+        line-height: 40px;
+        left: 17%;
+        bottom: -23%;
+    }
+}
+
+@media (max-width:323px){
   .main-banner-1 .banner-title {
         font-size: 30px;
         line-height: 40px;
@@ -9718,8 +9730,16 @@ form.form-dark .form-control:focus {
   padding: 6px 15px;
   border-radius: 50px;
   background: linear-gradient(60deg, #3663D8 -20%, #77BEFF 100%);
-
+  
 }
+
+@media (max-width:768px){
+  .requestBTn{
+    margin: 20px 0;
+  }
+}
+
+
 
 /*****************************
     Footer
@@ -10675,6 +10695,13 @@ body {
   padding: 60px;
 }
 
+
+@media (max-width:450px){
+  .page_content svg{
+    font-size: 120px;
+  }
+}
+
 .page_content {
   margin: 40px 0;
 }
@@ -10928,8 +10955,10 @@ body {
      width: 80%;
   }
   .footer_logo_icon{
-    flex: 1;
+    flex: 1; 
   }
+ 
+  
 
    .footer_logo i{
     font-size: larger;

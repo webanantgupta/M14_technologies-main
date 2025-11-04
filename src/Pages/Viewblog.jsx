@@ -1,12 +1,14 @@
 import { useLocation } from 'react-router-dom'
+import PageHeader from '../Common/PageHeader';
 
 const Viewblog = () => {
     const locate = useLocation();
     console.log(locate);
     const blogData = locate.state
-
+    const pageHeaderData = locate.state.title
     return (
         <>
+        <PageHeader title={pageHeaderData}/>
             <div className="container pt-5">
                 {blogData ? <div className='viewblog_outer_container'>
                     <div className='viewblog_container'>

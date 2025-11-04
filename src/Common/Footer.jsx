@@ -30,7 +30,7 @@ const Footer = () => {
                 <div className="footer_logo_icon widget-socail">
                   <ul className="socail-icon">
                     <li>
-                      <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+                      <a className='footer_icon' href="#"><i className="fa-brands fa-facebook-f"></i></a>
                     </li>
                     <li>
                       <a href="#"><i className="fa-brands fa-instagram"></i></a>
