@@ -8,7 +8,7 @@ const Viewblog = () => {
     return (
         <>
             <div className="container pt-5">
-                {blogData ? <div>
+                {blogData ? <div className='viewblog_outer_container'>
                     <div className='viewblog_container'>
                         <div className='viewblog_title'>
                             <h2>{blogData.title}</h2>
@@ -16,11 +16,11 @@ const Viewblog = () => {
                         <div className='viewblog_image'>
                             <img src={blogData.image} alt={blogData.title} />
                         </div>
-
+                        
                     </div>
-                    <div className='viewblog_content'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae esse deleniti fugiat porro blanditiis quidem consequuntur obcaecati dolore. Magni delectus nemo, illum modi totam repellat maxime, eius rerum facilis quisquam ducimus porro exercitationem dignissimos sequi vel. Recusandae repellat in assumenda praesentium asperiores rem, nostrum dicta nobis veniam aspernatur doloremque error! Ab expedita dicta quibusdam cum laboriosam neque tenetur, eligendi dolorum, in a mollitia eius labore facilis itaque, consequuntur corrupti illo culpa id. Architecto, voluptates libero aspernatur a quibusdam non voluptas sunt quae fuga iste? Debitis corrupti sequi aspernatur, et aperiam eum beatae optio non, placeat laboriosam, nesciunt saepe quae! Ipsam?</p>
-                    </div>
+                       <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla maiores assumenda magnam nam ratione similique. Laudantium tenetur nisi, laborum error, voluptate facilis, fuga officia corrupti aliquam quibusdam distinctio dignissimos nostrum debitis consectetur ad libero. Delectus non aperiam aliquid autem vel! Inventore atque facilis blanditiis voluptatum accusamus dignissimos rerum quam dolorum!</p>
+                       </div>
                 </div>
                     : ""}
             </div>

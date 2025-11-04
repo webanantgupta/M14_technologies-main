@@ -8,7 +8,7 @@ const Appdev = () => {
   return (
     <div>
       <PageHeader title="App Development"/>
-      <Pagecontent service={service}/>
+      <Pagecontent service={service} />
     </div>
   )
 }

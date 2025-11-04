@@ -10656,7 +10656,7 @@ body {
 
 /* styling the component here  */
 .page_container {
-  /* padding: 60px !important; */
+  padding: 60px;
 }
 
 .page_content {
@@ -10672,11 +10672,15 @@ body {
   font-size: 40px;
 }
 
- .page_container {
+ /* .page_container {
     padding: 40px 50px;
-  }
+  } */
 
 @media (max-width:1000px) {
+ .page_container {
+    padding: 80px 50px;
+  }
+
   .page_flex {
     display: flex;
     flex-direction: column-reverse;
@@ -10691,14 +10695,12 @@ body {
     align-items: center;
   }
 
-  .page_image img {
+  .page_image img{
     height: 350px;
     width: 450px;
   }
 
-  .page_container {
-    padding: 80px 50px;
-  }
+ 
 
 
 }
@@ -10752,11 +10754,16 @@ body {
 
 /* view blog CSS here */
 
+.viewblog_outer_container{
+  padding-bottom: 80px;
+}
+
+
 .viewblog_container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 40px;
+  padding: 60px;
   /* background-color: #0072ff; */
 }
 
