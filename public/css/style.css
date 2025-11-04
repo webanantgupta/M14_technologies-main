@@ -7740,6 +7740,8 @@ form.form-dark .form-control:focus {
   display: none;
 }
 
+
+
 @media (max-width:768px){
   .desktop_li{
     display: none;
@@ -7747,6 +7749,10 @@ form.form-dark .form-control:focus {
   .mobile_li{
     display: block;
   }
+
+.mobile_li h2{
+  text-align: center !important;
+}
 
   .mobile_li_links{
     display: grid;
@@ -7957,7 +7963,7 @@ form.form-dark .form-control:focus {
     font-size: 30px;
     line-height: 40px;
     left: 20%;
-    bottom: -20%;
+    bottom: -30%;
   }
 
   /* Main Banner 3 ----------*/
@@ -7986,6 +7992,15 @@ form.form-dark .form-control:focus {
     flex-direction: column-reverse;
     align-items: flex-start;
   }
+}
+
+@media (max-width:397px){
+  .main-banner-1 .banner-title {
+        font-size: 30px;
+        line-height: 40px;
+        left: 17%;
+        bottom: -30%;
+    }
 }
 
 /*****************************
@@ -10890,6 +10905,12 @@ body {
 }
 
 @media (max-width:767px){
+  .footer-logo img{
+    height: 160px;
+  }
+}
+
+@media (max-width:768px){
   .footer_logo_image img{
     display: block;
     margin: 0 auto; 
@@ -10902,7 +10923,7 @@ body {
     align-items: center;
   }
 
-  .footer_links{
+  /* .footer_links{
     columns: 2 !important;
-  }
+  } */
 }
