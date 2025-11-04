@@ -10696,9 +10696,9 @@ body {
 }
 
 
-@media (max-width:450px){
+@media (max-width:768px){
   .page_content svg{
-    font-size: 120px;
+    font-size: 120px !important;
   }
 }
 

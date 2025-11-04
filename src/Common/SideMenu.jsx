@@ -112,7 +112,7 @@ const SideMenu = ({ menuOpen, toggleMenu }) => {
                   isOpen={industriesDropdown}
                   toggle={() => setIndustriesDropdown(!industriesDropdown)}
                 >
-                  <DropdownToggle tag="span" style={{fontSize: "20px" , fontWeight: "600",backgroundColor:"black", color:"white"}} className="nav-link dropdown-toggle">
+                  <DropdownToggle tag="span" style={{fontSize: "20px" , fontWeight: "600"}} className="nav-link dropdown-toggle">
                     Industries We Serve
                   </DropdownToggle>
                   <DropdownMenu>
