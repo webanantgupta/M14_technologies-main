@@ -5869,6 +5869,7 @@ form.form-dark .form-control:focus {
 .header-default.header-absolute {
   position: sticky;
   left: 0;
+  top: 0;
   background: #000;
 }
 
@@ -6576,7 +6577,7 @@ form.form-dark .form-control:focus {
 .offcanvas.main-menu-offcanvas .offcanvas-body {
   display: flex;
   gap: 50px;
-  padding: 30px 50px;
+  padding: 260px 50px;
   padding-top: 0;
   flex-direction: column;
   justify-content: space-between;
@@ -6648,7 +6649,12 @@ form.form-dark .form-control:focus {
   font-weight: 400;
   color: #D4D6D7;
 }
+.offcanvas.main-menu-offcanvas .offcanvas-body .navbar .navbar-nav .nav-item a:hover{
 
+}
+.dropdown-menu .dropdown-item:hover{
+  color: #000 !important;
+}
 .offcanvas.main-menu-offcanvas .offcanvas-body .navbar .navbar-nav .nav-item .dropdown-menu li a.active,
 .offcanvas.main-menu-offcanvas .offcanvas-body .navbar .navbar-nav .nav-item .dropdown-menu li a:hover {
   color: #77BEFF;
@@ -10798,15 +10804,20 @@ body {
 /* view blog CSS here */
 
 .viewblog_outer_container{
-  padding-bottom: 80px;
+  padding:40px;
+}
+.footer_logo_image img{
+  object-fit: contain !important;
 }
 
-
+.viewblog_content{
+  margin: 20px;
+}
 .viewblog_container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 60px;
+  /* padding: 60px; */
   /* background-color: #0072ff; */
 }
 
@@ -10991,5 +11002,8 @@ body {
 }
 
 
-
-
+.header_sticky{
+  position: sticky;
+  top:0;
+  z-index:1;
+}

@@ -77,7 +77,7 @@ const SideMenu = ({ menuOpen, toggleMenu }) => {
                   isOpen={servicesDropdown}
                   toggle={() => setServicesDropdown(!servicesDropdown)}
                 >
-                  <DropdownToggle tag="span" style={{fontSize: "20px",fontWeight: "700"}} className="nav-link dropdown-toggle">
+                  <DropdownToggle tag="span" style={{fontSize: "20px",fontWeight: "700", cursor:"pointer"}} className="nav-link dropdown-toggle">
                     Services
                   </DropdownToggle>
                   <DropdownMenu>
@@ -112,7 +112,7 @@ const SideMenu = ({ menuOpen, toggleMenu }) => {
                   isOpen={industriesDropdown}
                   toggle={() => setIndustriesDropdown(!industriesDropdown)}
                 >
-                  <DropdownToggle tag="span" style={{fontSize: "20px" , fontWeight: "600"}} className="nav-link dropdown-toggle">
+                  <DropdownToggle tag="span" style={{fontSize: "20px" , fontWeight: "600",cursor:"pointer"}} className="nav-link dropdown-toggle">
                     Industries We Serve
                   </DropdownToggle>
                   <DropdownMenu>

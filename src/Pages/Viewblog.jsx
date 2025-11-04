@@ -5,7 +5,7 @@ const Viewblog = () => {
     const locate = useLocation();
     console.log(locate);
     const blogData = locate.state
-    const pageHeaderData = locate.state.title
+    const pageHeaderData = locate?.state?.title
     return (
         <>
         <PageHeader title={pageHeaderData}/>
@@ -20,7 +20,7 @@ const Viewblog = () => {
                         </div>
                         
                     </div>
-                       <div>
+                       <div className='viewblog_content'>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla maiores assumenda magnam nam ratione similique. Laudantium tenetur nisi, laborum error, voluptate facilis, fuga officia corrupti aliquam quibusdam distinctio dignissimos nostrum debitis consectetur ad libero. Delectus non aperiam aliquid autem vel! Inventore atque facilis blanditiis voluptatum accusamus dignissimos rerum quam dolorum!</p>
                        </div>
                 </div>

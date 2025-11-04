@@ -9,6 +9,7 @@ const Header = () => {
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
   }
+
   const handleModal = (e) => {
     e.preventDefault();
     setModalOpen(true);
@@ -21,9 +22,8 @@ const Header = () => {
 
   return (
     <>
-
       <header className="header header-default header-sticky header-absolute">
-        <div className="header-inner" >
+        <div className="header-inner">
           <div className="site-logo" style={{ width: "20%" }}>
             <Link className="navbar-brand" to="/">
               <img className="img-fluid" src="/images/white_logo.png" alt="logo" style={{ height: '90px', flexGrow: 1 }} />
@@ -188,15 +188,15 @@ const Header = () => {
           </div>
           <div className="mobile-action d-block d-xl-none">
             <div className="mobile-hamburger">
-              <a
+              <span
                 className="hamburger"
-                href="#" onClick={toggleMenu}
+               onClick={toggleMenu}
               >
                 <span className="hamburger-container">
                   <span className="hamburger-inner" />
                   <span className="hamburger-hidden" />
                 </span>
-              </a>
+              </span>
             </div>
           </div>
         </div>
