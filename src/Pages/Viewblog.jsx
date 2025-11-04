@@ -5,7 +5,7 @@ const Viewblog = () => {
     const locate = useLocation();
     console.log(locate);
     const blogData = locate.state
-    const pageHeaderData = locate?.state?.title
+    const pageHeaderData = locate?.state?.category;
     return (
         <>
         <PageHeader title={pageHeaderData}/>
