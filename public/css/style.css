@@ -10656,7 +10656,7 @@ body {
 
 /* styling the component here  */
 .page_container {
-  padding: 40px;
+  /* padding: 60px !important; */
 }
 
 .page_content {
@@ -10672,6 +10672,9 @@ body {
   font-size: 40px;
 }
 
+ .page_container {
+    padding: 40px 50px;
+  }
 
 @media (max-width:1000px) {
   .page_flex {

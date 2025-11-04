@@ -28,7 +28,7 @@ const Blogcontent = ({ blog }) => {
 
                     <section className="space-ptb ellipse-top ellipse-bottom ">
                         <div className="container ">
-                            <div className="row" style={{ margin: "50px 0"}}>
+                            <div className="row" style={{ margin: "150px 0" }}>
                                 {
                                     blog.map((obj, index) => {
                                         return (
