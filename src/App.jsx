@@ -1,5 +1,4 @@
-
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
 import 'locomotive-scroll/dist/locomotive-scroll.css';
 import AllRoutes from './AllRoutes/AllRoutes';
@@ -17,7 +16,7 @@ function App() {
       const scroll = new LocomotiveScroll({
         el: containerRef.current,
         smooth: true,
-        lerp: 0.04,
+        lerp: 0.07,
       });
 
       // Scroll to top on route change

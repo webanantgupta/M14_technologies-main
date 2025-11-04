@@ -156,11 +156,11 @@ const SideMenu = ({ menuOpen, toggleMenu }) => {
           </div>
           <div className="bottom-info mt-4">
             <div className="contact-info">
-              <span className="number fs-5 d-block">+91 9999999999</span>
-              <a className="mail d-block" href="#">
+              <Link to={"tel:+7705009900"} className="number fs-5 d-block">+91-770-500-9900</Link>
+              <Link className="mail d-block" to={"mailto:miza@m14.tech"} href="#">
                 <i className="fa-regular fa-envelope me-2" />
-                Info@m14technologies.com
-              </a>
+                miza@m14.tech
+              </Link>
               <span className="text d-block mt-2">
                 Looking for collaboration for your next creative project?
               </span>
@@ -218,10 +218,10 @@ const SideMenu = ({ menuOpen, toggleMenu }) => {
             </div>
 
             <div className="contact-info">
-              <span className="number d-block">+91 9999999999</span>
+              <span className="number d-block">+91-770-500-9900</span>
               <a className="mail d-block" href="#">
                 <i className="fa-regular fa-envelope me-2" />
-                Info@m14technologies.com
+                miza@m14.tech
               </a>
               <span className="text d-block mt-2">
                 Looking for collaboration for your next creative project?

@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
 
- const scrollTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth",
-        });
-    }
+  const scrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
 
 
 
@@ -18,16 +18,16 @@ const Footer = () => {
         <div className="footer-main">
           <div className="container">
             <div className="row">
-                <div className="col-xl-3 col-md-12 mx-2">
-                <div className="widget widget-info">
+              <div className="footer_logo col-xl-3 col-md-12 mx-2">
+                <div className="footer_logo_image widget widget-info">
                   {/* <h5 className="widget-title">Call Center</h5> */}
-                 <Link className="footer-logo" to="/">
+                  <Link className="footer-logo" to="/">
                     <img className="img-fluid" src="/images/white_logo.png" alt="logo" style={{ height: '130px' }} />
                     {/* <h4 className='gradient-text'>M14 Technologies</h4> */}
                   </Link>
                   {/* <h6 className="title">and get a free estimate</h6> */}
                 </div>
-                <div className="widget-socail">
+                <div className="footer_logo_icon widget-socail">
                   <ul className="socail-icon">
                     <li>
                       <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
@@ -44,25 +44,12 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-            
+
               <div className="col-xl-5 col-md-7">
                 <div className="widget">
-                  {/* <h5 className="widget-title">Newsletter</h5> */}
-                  {/* <div className="widget widget-newsletter mb-4 pb-2">
-                    <form className="newsletter-form">
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="Enter Your Email"
-                      />
-                      <button type="submit" className="subscribe-btn">
-                        <i className="fa-solid fa-paper-plane" />
-                      </button>
-                    </form>
-                  </div> */}
-                  <div className="widget widget-menu">
+                  <div className="desktop_li widget widget-menu">
                     <h6 className="widget-title">Quick Links</h6>
-                    <ul className="list-unstyled list-col-3 mb-0">
+                    <ul className="footer_links list-unstyled list-col-3 mb-0">
                       <li><Link to="/services/management-service" onClick={scrollTop}>Management Service</Link></li>
                       <li><Link to="/services/it-consulting" onClick={scrollTop}>IT Consulting</Link></li>
                       <li><Link to="/services/app-development" onClick={scrollTop}>Service</Link></li>
@@ -77,6 +64,28 @@ const Footer = () => {
                       <li><Link to="/services/platform-optimization" onClick={scrollTop}>Platform Optimization</Link></li>
                       <li><Link to="/terms-conditions" onClick={scrollTop}>Terms and conditions</Link></li>
                     </ul>
+                  </div>
+
+                  <div className="mobile_li widget widget-menu">
+                    <h6 className="widget-title">Quick Links</h6>
+                    <div className='d-flex justify-content-between'>
+                      <ul className="footer_links list-unstyled list-col-3 mb-0">
+                        <li><Link to="/services/management-service" onClick={scrollTop}>Management Service</Link></li>
+                        <li><Link to="/services/it-consulting" onClick={scrollTop}>IT Consulting</Link></li>
+                        <li><Link to="/services/app-development" onClick={scrollTop}>Service</Link></li>
+                        <li><Link to="/serve/education" onClick={scrollTop}>Industries</Link></li>
+                        <li><Link to="/serve/finance" onClick={scrollTop}>Finance</Link></li>
+                        <li><Link to="/services/it-infrastructure-setup" onClick={scrollTop}>It Infra Setup</Link></li>
+                      </ul>
+                      <ul className="footer_links list-unstyled list-col-3 mb-0">
+                        <li><Link to="/services/mixed-reality" onClick={scrollTop}>Mixed Reality</Link></li>
+                        <li><Link to="/services/digital-marketing" onClick={scrollTop}>Digital Marketing</Link></li>
+                        <li><Link to="/privacy-policy" onClick={scrollTop}>Privacy Policy</Link></li>
+                        <li><Link to="/serve/retail" onClick={scrollTop}>Retail</Link></li>
+                        <li><Link to="/services/platform-optimization" onClick={scrollTop}>Platform Optimization</Link></li>
+                        <li><Link to="/terms-conditions" onClick={scrollTop}>Terms and conditions</Link></li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -93,7 +102,7 @@ const Footer = () => {
                         />
                       </i>
                       <span className="info">
-                        <Link to={"https://maps.app.goo.gl/fCCVkB66rpCCQDrj7"} style={{color: "white", fontWeight: "bold", cursor: "pointer"}} target='_blank'>467/95, Mehtab Bagh Colony<br />Lucknow, Uttar Pradesh India - 226024 </Link>  
+                        <Link to={"https://maps.app.goo.gl/fCCVkB66rpCCQDrj7"} style={{ color: "white", fontWeight: "bold", cursor: "pointer" }} target='_blank'>467/95, Mehtab Bagh Colony<br />Lucknow, Uttar Pradesh India - 226024 </Link>
                       </span>
                     </li>
                     <li>
@@ -105,7 +114,7 @@ const Footer = () => {
                         />
                       </i>
                       <span className="info">
-                        <Link to={"tel:+7705009900"} style={{color: "white", fontWeight: "bold"}}>+91-770-500-9900 </Link>
+                        <Link to={"tel:+7705009900"} style={{ color: "white", fontWeight: "bold" }}>+91-770-500-9900 </Link>
                       </span>
                     </li>
                     <li>
@@ -117,7 +126,7 @@ const Footer = () => {
                         />
                       </i>
                       <span className="info">
-                        <Link to={"mailto:mirza@m.14.tech"} style={{color:"white", fontWeight: "bold"}}>mirza@m.14.tech </Link>24x7 online support
+                        <Link to={"mailto:mirza@m.14.tech"} style={{ color: "white", fontWeight: "bold" }}>mirza@m.14.tech </Link>24x7 online support
                       </span>
                     </li>
                   </ul>
@@ -146,6 +155,12 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      <div className='extraSpace'>
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
     </>
   )
 }

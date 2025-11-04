@@ -5,12 +5,12 @@ import Modalpopup from "../../Common/Modalpopup";
 
 const Banner = () => {
     // const [modalOpen, setModalOpen] = useState(false);
-    
+
     // const handleModal = (e) => {
     // e.preventDefault();
     //   setModalOpen(true);
     // }
-    
+
     // const handleClose = () =>{
     //   setModalOpen(false);
     // }
@@ -23,10 +23,14 @@ const Banner = () => {
                         src="images/banner/banner-01/banner-bg-01.png"
                         alt="#"
                     />
-                    <h1 className="banner-title " data-scroll
+                    <div className="desktop"> <h1 className="banner-title " data-scroll
                         data-scroll-direction="horizontal"
                         data-scroll-speed="2"
-                        >M14 <br /> Technologies</h1>
+                    >M14 <br /> Technologies</h1></div>
+                    
+                    <div className="mobiletxt"> 
+                        <h1 className="banner-title "
+                    >M14 Technologies</h1></div>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6">
@@ -39,8 +43,8 @@ const Banner = () => {
                             <div className="col-md-6 ms-auto">
                                 <div className="banner-content">
                                     <h1 className="animate__animated animate__lightSpeedInRight mb-0">Digital Solutions</h1>
-                                          <h1 className="animate__animated animate__flipInX animate__delay-.5s mt-0  pt-0">
-                                         Real-World Impact</h1>
+                                    <h1 className="animate__animated animate__flipInX animate__delay-.5s mt-0  pt-0">
+                                        Real-World Impact</h1>
                                     <p>We’re not just building software — we’re building trust, innovation, and long-term success</p>
                                     {/* <Link className="btn btn-effect" to={''} onClick={handleModal}>
                                         <span>Get A Quote</span>

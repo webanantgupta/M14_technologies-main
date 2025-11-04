@@ -97,7 +97,7 @@ const Testimonial = () => {
                       </span>
                     </div>
                     <div>
-                      <h2 className="title text-sm-center text-md-end text-lg-end" style={{ textAlign: "right" }}>
+                      <h2 className="testimonial_heading title text-sm-center text-md-end text-lg-end" style={{ textAlign: "right" }}>
                         What Our Clients Say
                       </h2>
                     </div>

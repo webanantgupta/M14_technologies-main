@@ -1,7 +1,4 @@
 import CountUp from 'react-countup';
-import CommonBtn from '../../Common/CommonBtn';
-import BackToTop from '../../Common/BackToTop';
-import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
     return (
@@ -24,8 +21,8 @@ const AboutUs = () => {
                                 </h2>
                             </div>
                             <div className="row">
-                                <div className="col-sm-4">
-                                    <img
+                                <div className="aboutus_upperimage col-sm-4">
+                                    <img 
                                         className="img-fluid"
                                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5UIu26F2U07iqeciY0oQuHI001bZ_pLNA9v5lxLH4-yrmEgqv9eycYhpqyV4mNruYFnE&usqp=CAU"
                                         alt="#"
