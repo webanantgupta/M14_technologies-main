@@ -14,7 +14,7 @@ const ServicesInfo = () => {
     ];
     return (
         <>
-            <div className="space-medium-ptb">
+            <div className="space-medium-ptb service_info">
                 <div className="container-fluid p-0">
                     <div className="row g-0">
                         <div className="col-md-12">

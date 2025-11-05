@@ -151,7 +151,7 @@ const Footer = () => {
                   Copyright © 2025 All Rights Reserved  - <Link to="/" onClick={scrollTop}>M14 Technologies Pvt. Ltd.</Link>
                 </p>
                  <p className='mobile_copyright'>
-                  Copyright © 2025 All Rights Reserved  - 
+                  Copyright © 2025 All Rights Reserved
                   <p>
                   <Link to="/" onClick={scrollTop}>M14 Technologies Pvt. Ltd.</Link>
                   </p>

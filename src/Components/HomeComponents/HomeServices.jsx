@@ -51,7 +51,7 @@ const HomeServices = () => {
                     data-scroll-speed="0"
                     data-scroll-position="top"
                 >
-                    <div className="space-pb ellipse-bottom">
+                    <div className="space-pb ellipse-bottom service_heading_inner">
                         <div className="container">
                             <div className="row justify-content-between">
                                 <div className="col-xxl-5 col-xl-5 mb-5 mb-xl-0">
@@ -83,14 +83,14 @@ const HomeServices = () => {
                                 <div className="col-xxl-6 col-xl-7">
                                     <div className="row">
                                         <div className="col-sm-6">
-                                            <div className="services grid-wrapper">
+                                            <div className="services grid-wrapper service_list1">
                                                 {serviceData1?.map((obj) => (
                                                     <ServiceCard title={obj.title} des={obj.short_description} link={obj.link} />
                                                 ))}
                                             </div>
                                         </div>
                                         <div className="col-sm-6">
-                                            <div className="services grid-wrapper service-top-space">
+                                            <div className="services grid-wrapper service-top-space service_list2">
                                                 {serviceData2?.map((obj) => (
                                                     <ServiceCard title={obj.title} des={obj.short_description} link={obj.link} />
                                                 ))}
