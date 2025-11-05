@@ -29,7 +29,7 @@ const AboutUs = () => {
                                     />
                                 </div>
                                 <div className="col-sm-8">
-                                    <p className="ps-lg-3 mt-4 mt-sm-0">
+                                    <p className="ps-lg-3 mt-4 mt-sm-0 aboutus_upper_content">
                                         M14 is a leading IT solutions provider committed to delivering
                                         innovative, reliable, and comprehensive technology services to
                                         businesses of all sizes. Founded on the principles of excellence,
@@ -47,18 +47,23 @@ const AboutUs = () => {
                             </div>
 
                         </div>
-                        <div className="col-lg-5">
+                        <div className="col-lg-5 aboutus_image_container">
                             <img
-                                className="img-fluid ps-lg-5"
+                                className="img-fluid ps-lg-5 aboutus_desktop_img"
                                 src="https://www.shutterstock.com/image-photo/hands-typing-on-laptop-programming-600nw-2480023489.jpg"
                                 alt="#"
                             /> <br /><br />
+                              <img
+                                className="img-fluid ps-lg-5 aboutus_mobile_img"
+                                src="https://www.shutterstock.com/image-photo/hands-typing-on-laptop-programming-600nw-2480023489.jpg"
+                                alt="#"
+                            /> 
                             <div className="counter counter-style-1">
                                 <div className="counter-number">
                                     <span
                                         className="timer mb-0"
                                     >
-                                        <CountUp end={400} start={0} duration={2.75} />
+                                        <CountUp end={100} start={0} duration={2.75} />
                                     </span>
                                     <span className="suffix">+</span>
                                 </div>

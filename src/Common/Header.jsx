@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useState } from "react";
 import Modalpopup from './Modalpopup';
 import SideMenu from './SideMenu';
+import GetQuote from './GetQuote';
 
 const Header = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -22,6 +23,7 @@ const Header = () => {
 
   return (
     <>
+      {/* <GetQuote/> */}
       <header className="header header-default header-sticky header-absolute">
         <div className="header-inner">
           <div className="site-logo" style={{ width: "20%" }}>
@@ -31,8 +33,8 @@ const Header = () => {
             </Link>
           </div>
 
-          <div className="site-menu d-none d-xl-block" style={{ width: "60%" }} >
-            <ul className="main-menu p-0" >
+          <div className="site-menu d-none d-xl-block header_li" style={{ width: "60%" }} >
+            <ul className="main-menu">
               <li className="nav-item active">
                 <Link className="nav-link" to="/">
                   Home
@@ -168,29 +170,17 @@ const Header = () => {
             </ul>
           </div>
 
-          <div className="site-action d-none d-xl-block" style={{ width: "20x" }}>
-            <div className="action-hamburger">
+          {/* <div className="site-action d-none d-xl-block" style={{ width: "20x" }}>
+            {/* <div className="action-hamburger">
               <Link to="#" className='requestBTn' onClick={handleModal}>Get A Quote</Link>
-              {/* <a
-                className="hamburger"
-                href="#"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasRight"
-                aria-controls="offcanvasRight"
-              >
-                <span className="hamburger-container">
-                  <span className="hamburger-inner" />
-                  <span className="hamburger-hidden" />
-                </span>
-              </a> */}
-            </div>
-            {<Modalpopup handleClose={handleClose} modalOpen={modalOpen} />}
-          </div>
+            </div> */}
+
+          {/* </div>  */}
           <div className="mobile-action d-block d-xl-none">
             <div className="mobile-hamburger">
               <span
                 className="hamburger"
-               onClick={toggleMenu}
+                onClick={toggleMenu}
               >
                 <span className="hamburger-container">
                   <span className="hamburger-inner" />

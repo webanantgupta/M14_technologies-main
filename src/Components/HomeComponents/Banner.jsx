@@ -40,7 +40,7 @@ const Banner = () => {
                                     alt="#"
                                 />
                             </div>
-                            <div className="col-md-6 ms-auto">
+                            <div className="col-md-6 ms-auto banner_heading">
                                 <div className="banner-content">
                                     <h1 className="animate__animated animate__lightSpeedInRight mb-0">Digital Solutions</h1>
                                     <h1 className="animate__animated animate__flipInX animate__delay-.5s mt-0  pt-0">

@@ -151,12 +151,12 @@ const SideMenu = ({ menuOpen, toggleMenu }) => {
               Get A Quote
             </Button>
           </div> */}
-          <div className="action-hamburger">
+          {/* <div className="action-hamburger">
             <Link to="#" className='requestBTn py-2 px-4' onClick={handleModal}>Get A Quote</Link>
-          </div>
+          </div> */}
           <div className="bottom-info mt-4">
             <div className="contact-info">
-              <Link to={"tel:+7705009900"} className="number fs-5 d-block">+91-770-500-9900</Link>
+              <Link to={"tel:+7705009900"} className="number fs-5 d-block">+91 - 770-500-9900</Link>
               <Link className="mail d-block" to={"mailto:miza@m14.tech"} href="#">
                 <i className="fa-regular fa-envelope me-2" />
                 miza@m14.tech

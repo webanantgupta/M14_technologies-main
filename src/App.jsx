@@ -5,6 +5,7 @@ import AllRoutes from './AllRoutes/AllRoutes';
 import { useLocation } from 'react-router-dom';
 import Header from './Common/Header';
 import SideMenu from './Common/SideMenu';
+import GetQuote from './Common/GetQuote';
 
 
 function App() {
@@ -37,7 +38,9 @@ function App() {
       <SideMenu />
       <div data-scroll-container ref={containerRef}>
         <AllRoutes />
+
       </div>
+      <GetQuote/>
 
     </>
   );
