@@ -47,7 +47,7 @@ const HomeServices = () => {
         <>
             <div className='normal-wrapper'>
                 <section
-                    className="space-pt bg-light z-index-2 ellipse-top normal-section"
+                    className="service_heading bg-light z-index-2 ellipse-top normal-section"
                     data-scroll-speed="0"
                     data-scroll-position="top"
                 >
@@ -55,8 +55,8 @@ const HomeServices = () => {
                         <div className="container">
                             <div className="row justify-content-between">
                                 <div className="col-xxl-5 col-xl-5 mb-5 mb-xl-0">
-                                    <div className="sticky-top" style={{ top: 80 }}>
-                                        <div className="section-title">
+                                    <div className="sticky-top" style={{ top: 60 }}>
+                                        <div className="section-title section_container">
                                             <span className="sub-title">
                                                 <img
                                                     className="img-fluid"
@@ -75,7 +75,7 @@ const HomeServices = () => {
                                             </p>
                                             {/* <CommonBtn btntxt="View All" link="/services" /> */}
                                             <div className="action-hamburger d-flex justify-content-center my-3">
-                                                <Link to="/services" className='requestBTn  px-5 py-2 mt-5' onClick={scrollTop} >View All</Link>
+                                                <Link to="/services" className='requestBTn' onClick={scrollTop} >View All</Link>
                                             </div>
                                         </div>
                                     </div>

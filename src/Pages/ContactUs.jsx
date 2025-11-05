@@ -62,8 +62,8 @@ const ContactUs = () => {
           <section className="space-ptb z-index-2">
             <div className="container">
               <div className="row contact_us">
-                <div className="col-xl-6 col-lg-5 mt-5">
-                  <div className="section-title is-sticky">
+                <div className="col-xl-6 col-lg-5 mt-5 contact_us_container">
+                  <div className="section-title is-sticky contact_us_heading">
 
                     <h2 className="title">
                       {" "}
@@ -105,7 +105,7 @@ const ContactUs = () => {
                                     alt=""
                                   />
                                 </i>
-                                <Link to={"tel:+7705009900"} className="list-label">+91-770-500-9900</Link>
+                                <Link to={"tel:+7705009900"} className="list-label">+91 - 770-500-9900</Link>
                               </div>
                               <div className="location-item">
                                 <i className="icon">
@@ -136,7 +136,7 @@ const ContactUs = () => {
               <div className="container">
                 <div className="row justify-content-center">
                   <div className="col-md-10">
-                    <div className="section-title text-center">
+                    <div className="section-title text-center contact_us_heading2">
                       <span className="sub-title d-flex justify-content-center">
                         <img
                           className="img-fluid"

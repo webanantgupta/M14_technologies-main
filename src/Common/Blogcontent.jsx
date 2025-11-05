@@ -26,14 +26,14 @@ const Blogcontent = ({ blog }) => {
             {blog ? (
                 <div className="site-content">
 
-                    <section className="space-ptb ellipse-top ellipse-bottom ">
+                    <section className="blog_grid_container space-ptb ellipse-top ellipse-bottom ">
                         <div className="container ">
-                            <div className="row" style={{ margin: "120px 0 80px 0" }}>
+                            <div className="row blog_grid_inner"  style={{ margin: "100px 0 60px 0" }}>
                                 {
                                     blog.map((obj, index) => {
                                         return (
                                             <>
-                                                <div className="col-lg-4 col-md-6 mb-5" key={index} >
+                                                <div className=" col-lg-4 col-md-6 mb-5" key={index} >
                                                     <div className="blog-items ">
                                                         <div className="blog-post-wrapper blog-style-1" style={{height: "600px"}} >
 

@@ -28,9 +28,9 @@ const Banner = () => {
                         data-scroll-speed="2"
                     >M14 <br /> Technologies</h1></div>
                     
-                    <div className="mobiletxt"> 
-                        <h1 className="banner-title "
-                    >M14 Technologies</h1></div>
+                    {/* <div className="mobiletxt"> 
+                        <h1 className="banner-title"
+                    >M14 Technologies</h1></div> */}
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6">

@@ -7,11 +7,11 @@ const Aboutus = () => {
       <div className="site-content">
         <PageHeader title="About Us" />
         <div className="content-wrapper about_us">
-          <section className="space-pt">
+          <section>
             <div className="container">
               <div className="row justify-content-between">
                 <div className="col-lg-7 mb-5 mb-lg-0">
-                  <div className="section-title pb-0 pb-lg-4">
+                  <div className="section-title about_heading pb-0 pb-lg-4">
                     <span className="sub-title">
                       <img
                         className="img-fluid"
@@ -25,7 +25,7 @@ const Aboutus = () => {
                     </h2>
                   </div>
                   <div className="row">
-                    <div className="col-sm-4">
+                    <div className="col-sm-4 aboutus_image">
                       <img
                         className="img-fluid"
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5UIu26F2U07iqeciY0oQuHI001bZ_pLNA9v5lxLH4-yrmEgqv9eycYhpqyV4mNruYFnE&usqp=CAU"
@@ -54,7 +54,7 @@ const Aboutus = () => {
                   </div>
 
                 </div>
-                <div className="col-lg-5">
+                <div className="col-lg-5 aboutus_image2">
                   <img
                     className="img-fluid ps-lg-5"
                     src="https://www.shutterstock.com/image-photo/hands-typing-on-laptop-programming-600nw-2480023489.jpg"
@@ -93,12 +93,12 @@ const Aboutus = () => {
             </div>
           </section>
           <section className="mission space-pt bg-white ellipse-top">
-            <div className="space-pb ellipse-bottom">
+            <div className="space-pb  ellipse-bottom">
               <div className="container">
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="sticky-top" style={{ top: 80 }}>
-                      <div className="section-title mb-0">
+                      <div className="section-title mission_heading mb-0">
                         <span className="sub-title">
                           <img
                             className="img-fluid"

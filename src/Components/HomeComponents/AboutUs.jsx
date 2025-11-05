@@ -5,7 +5,7 @@ const AboutUs = () => {
         <>
             <section className="space-pt">
                 <div className="container">
-                    <div className="row justify-content-between " style={{paddingBottom: "80px"}}>
+                    <div className="row justify-content-between main_aboutus">
                         <div className="col-lg-7 mb-5 mb-lg-0">
                             <div className="section-title pb-0 pb-lg-4">
                                 <span className="sub-title">

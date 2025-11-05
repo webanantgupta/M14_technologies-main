@@ -13,12 +13,14 @@ const Pagecontent = ({ service }) => {
                     <div className="page_flex">
                         <div className="page_title">
                             <h2>{service.title}</h2>
-                            <p>{service.overview}</p>
                         </div>
 
                         <div className="page_image ">
                             <img src={service.banner_image} alt={service.title} />
                         </div>
+                    </div>
+                    <div className="page_overview">
+                            <p>{service.overview}</p>
                     </div>
 
                 </div>

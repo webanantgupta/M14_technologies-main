@@ -50,19 +50,19 @@ const Footer = () => {
                   <div className="desktop_li widget widget-menu">
                     <h6 className="widget-title">Quick Links</h6>
                     <ul className="footer_links list-unstyled list-col-3 mb-0">
-                      <li><Link to="/services/management-service" onClick={scrollTop}>Management Service</Link></li>
+                      <li><Link to="/services/app-development" onClick={scrollTop}>App Development</Link></li>
                       <li><Link to="/services/it-consulting" onClick={scrollTop}>IT Consulting</Link></li>
                       <li><Link to="/services/app-development" onClick={scrollTop}>Service</Link></li>
                       <li><Link to="/serve/education" onClick={scrollTop}>Industries</Link></li>
                       {/* <li><Link to="/contact" onClick={<BackToTop/>}>Contact</Link></li> */}
                       <li><Link to="/serve/finance" onClick={scrollTop}>Finance</Link></li>
-                      <li><Link to="/services/it-infrastructure-setup" onClick={scrollTop}>It Infra Setup</Link></li>
+                      <li><Link to="/services/it-infrastructure-setup" onClick={scrollTop}>IT Infra Setup</Link></li>
                       <li><Link to="/services/mixed-reality" onClick={scrollTop}>Mixed Reality</Link></li>
                       <li><Link to="/services/digital-marketing" onClick={scrollTop}>Digital Marketing</Link></li>
                       <li><Link to="/privacy-policy" onClick={scrollTop}>Privacy Policy</Link></li>
                       <li><Link to="/serve/retail" onClick={scrollTop}>Retail</Link></li>
                       <li><Link to="/services/platform-optimization" onClick={scrollTop}>Platform Optimization</Link></li>
-                      <li><Link to="/terms-conditions" onClick={scrollTop}>Terms and conditions</Link></li>
+                      <li><Link to="/terms-conditions" onClick={scrollTop}>Terms And Conditions</Link></li>
                     </ul>
                   </div>
 
@@ -70,12 +70,12 @@ const Footer = () => {
                     <h6 className="widget-title">Quick Links</h6>
                     <div className='d-flex justify-content-between'>
                       <ul className="footer_links list-unstyled list-col-3 mb-0">
-                        <li><Link to="/services/management-service" onClick={scrollTop}>Management Service</Link></li>
+                        <li><Link to="/services/app-development" onClick={scrollTop}>App Development</Link></li>
                         <li><Link to="/services/it-consulting" onClick={scrollTop}>IT Consulting</Link></li>
                         <li><Link to="/services/app-development" onClick={scrollTop}>Service</Link></li>
                         <li><Link to="/serve/education" onClick={scrollTop}>Industries</Link></li>
                         <li><Link to="/serve/finance" onClick={scrollTop}>Finance</Link></li>
-                        <li><Link to="/services/it-infrastructure-setup" onClick={scrollTop}>It Infra Setup</Link></li>
+                        <li><Link to="/services/it-infrastructure-setup" onClick={scrollTop}>IT Infra Setup</Link></li>
                       </ul>
                       <ul className="footer_links list-unstyled list-col-3 mb-0">
                         <li><Link to="/services/mixed-reality" onClick={scrollTop}>Mixed Reality</Link></li>
@@ -83,7 +83,7 @@ const Footer = () => {
                         <li><Link to="/privacy-policy" onClick={scrollTop}>Privacy Policy</Link></li>
                         <li><Link to="/serve/retail" onClick={scrollTop}>Retail</Link></li>
                         <li><Link to="/services/platform-optimization" onClick={scrollTop}>Platform Optimization</Link></li>
-                        <li><Link to="/terms-conditions" onClick={scrollTop}>Terms and conditions</Link></li>
+                        <li><Link to="/terms-conditions" onClick={scrollTop}>Terms And Conditions</Link></li>
                       </ul>
                     </div>
                   </div>
@@ -114,7 +114,7 @@ const Footer = () => {
                         />
                       </i>
                       <span className="info">
-                        <Link to={"tel:+7705009900"} style={{ color: "white", fontWeight: "bold" }}>+91-770-500-9900 </Link>
+                        <Link to={"tel:+7705009900"} style={{ color: "white", fontWeight: "bold" }}>+91 - 770-500-9900 </Link>
                       </span>
                     </li>
                     <li>
@@ -126,7 +126,7 @@ const Footer = () => {
                         />
                       </i>
                       <span className="info">
-                        <Link to={"mailto:mirza@m.14.tech"} style={{ color: "white", fontWeight: "bold" }}>mirza@m.14.tech </Link>24x7 online support
+                        <Link to={"mailto:mirza@m.14.tech"} style={{ color: "white", fontWeight: "bold" }}>mirza@m14.tech </Link>24x7 online support
                       </span>
                     </li>
                   </ul>
@@ -147,8 +147,14 @@ const Footer = () => {
                 </p> */}
               </div>
               <div className="col-lg-12 text-lg-center text-center">
-                <p className=''>
+                <p className='desktop_copyright'>
                   Copyright © 2025 All Rights Reserved  - <Link to="/" onClick={scrollTop}>M14 Technologies Pvt. Ltd.</Link>
+                </p>
+                 <p className='mobile_copyright'>
+                  Copyright © 2025 All Rights Reserved  - 
+                  <p>
+                  <Link to="/" onClick={scrollTop}>M14 Technologies Pvt. Ltd.</Link>
+                  </p>
                 </p>
               </div>
             </div>

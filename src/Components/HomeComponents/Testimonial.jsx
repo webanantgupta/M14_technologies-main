@@ -34,8 +34,8 @@ const Testimonial = () => {
   ];
   return (
     <>
-      <section className=" testimonial-section overflow-hidden ellipse-top bg-light z-index-2">
-        <div className="container">
+      <section className="testimonial-section overflow-hidden ellipse-top bg-light z-index-2">
+        <div className="container testimonial_container">
           <div className="row justify-content-center">
             {/* <div className="col-md-10">
 
