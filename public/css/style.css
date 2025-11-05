@@ -1326,7 +1326,7 @@ blockquote.blockquote-style-1:before {
 }
 
 .about_us{
-   padding: 0 40px;
+   padding: 0 10px;
 }
 
 
@@ -10949,10 +10949,23 @@ body {
 /* view blog CSS here */
 
 .viewblog_outer_container{
-  padding: 0 40px;
+  padding: 0 10px;
+  padding-bottom: 25px;
 }
 
+@media (max-width:575px){
+  .viewblog_outer_container{
+  padding: 0 10px;
+  padding-bottom: 25px;
+}
+}
 
+@media (min-width:576px) and (max-width:878px){
+  .viewblog_outer_container{
+  padding: 0 10px;
+  padding-bottom: 10px;
+}
+}
 
 
 .footer_logo_image img{
