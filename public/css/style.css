@@ -11263,3 +11263,18 @@ body {
     display: none;
   }
 }
+
+@media (min-width:576px) and (max-width:878px){
+.input_container input{
+  margin-top: 0;
+}
+}
+
+@media (min-width:879px) and (max-width:1600px){
+  .contact_us_heading2{
+    margin: 0;
+  }
+  .contactus_heading{
+    margin-top: 40px;
+  }
+}

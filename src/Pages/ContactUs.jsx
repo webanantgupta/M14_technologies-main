@@ -77,7 +77,7 @@ const ContactUs = () => {
                 </div>
                 <div className="col-xl-6 col-lg-7">
                   <div className="location-items grid-wrapper">
-                    <div className="location-wrapper location-style-1 bg-black">
+                    <div className="location-wrapper location-style-1 bg-black contactus_heading">
                       <div className="location-inner">
                         <div className="location-info">
                           <div className="city-info py-5">
@@ -153,7 +153,7 @@ const ContactUs = () => {
                     <div className="form-wrapper">
                       <form className="contact-form form-style-border" onSubmit={handleSubmit}>
                         <div className="row">
-                          <div className="col-md-4">
+                          <div className="col-md-4 input_container">
                             <input
                               type="text"
                               name="name"
@@ -168,7 +168,7 @@ const ContactUs = () => {
 
                           </div>
 
-                          <div className="col-md-4">
+                          <div className="col-md-4 input_container" >
                             <input
                               type="email"
                               name='email'
@@ -183,7 +183,7 @@ const ContactUs = () => {
 
                           </div>
 
-                          <div className="col-md-4">
+                          <div className="col-md-4 input_container">
                             <input
                               type="number"
                               name='phone'
@@ -198,7 +198,7 @@ const ContactUs = () => {
 
                           </div>
 
-                          <div className="col-lg-12">
+                          <div className="col-lg-12 input_container">
                             <textarea
                               className="form-control border border-dark"
                               rows={6}
