@@ -27,12 +27,43 @@ function Modalpopup({ handleClose, modalOpen }) {
   const { handleBlur, handleChange, errors, handleSubmit, touched, values } = useFormik({
     initialValues: initialValues,
     validationSchema: ModalpopupValidation,
-    onSubmit: (values) => {
-      if (!captcha) {
-        toast.error("Please verify that you are not a robot.");
-        return;
-      }
+    onSubmit: async (values , {resetForm}) => {
+        try {
+          const response = await fetch("https://api-company.onebigbit.com/clients/send_msg" , {
+            method: "POST",
+            headers:{
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(values)
+          }) ;
+
+            if(response.ok){
+               if(!captcha){
+                toast.error("Please verify that you are not a robot");
+                return;
+               }
+              
+
+              toast.success("Details submitted successfully!");
+              resetForm();
+            } else {
+              toast.error("Something went wrong ok");
+            }
+
+            
+      // if (!captcha) {
+      //   toast.error("Please verify that you are not a robot.");
+      //   return;
+      // }
+
+        } catch (error) {
+           console.log("Error", error);
+          //  toast.error("Something went wrong");
+        }
+
+
       console.log(values);
+      // toast.success("We received your message")
       handleClose();
     }
   })

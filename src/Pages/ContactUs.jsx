@@ -17,10 +17,28 @@ const ContactUs = () => {
   const { values, handleBlur, handleChange, errors, handleSubmit, touched } = useFormik({
     initialValues: initialValues,
     validationSchema: Formvalidation,
-    onSubmit: (values, { resetForm }) => {
+    onSubmit: async (values, { resetForm }) => {
       console.log(values);
+      try{
+        const response = await fetch("https://api-company.onebigbit.com/clients/send_msg", {
+          method: "POST",
+          headers: {
+                "Content-Type": "application/json"
+          },
+          body: JSON.stringify(values)
+        });
+
+        if(response.ok){
       toast.success("Details submitted successfully")
       resetForm();
+        } else {
+          toast.error("Something went wrong")
+        }
+      } catch(error){
+        console.log("Error", error);
+        toast.error("Something went wrong");
+      } 
+       
     }
   })
   // console.log(ans);
