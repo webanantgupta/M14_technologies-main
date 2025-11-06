@@ -27,39 +27,31 @@ function Modalpopup({ handleClose, modalOpen }) {
   const { handleBlur, handleChange, errors, handleSubmit, touched, values } = useFormik({
     initialValues: initialValues,
     validationSchema: ModalpopupValidation,
-    onSubmit: async (values , {resetForm}) => {
-        try {
-          const response = await fetch("https://api-company.onebigbit.com/clients/send_msg" , {
-            method: "POST",
-            headers:{
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(values)
-          }) ;
-
-            if(response.ok){
-               if(!captcha){
-                toast.error("Please verify that you are not a robot");
-                return;
-               }
-              
-
-              toast.success("Details submitted successfully!");
-              resetForm();
-            } else {
-              toast.error("Something went wrong ok");
-            }
-
-            
-      // if (!captcha) {
-      //   toast.error("Please verify that you are not a robot.");
-      //   return;
-      // }
-
-        } catch (error) {
-           console.log("Error", error);
-          //  toast.error("Something went wrong");
+    onSubmit: async (values, { resetForm }) => {
+      try {
+        if (!captcha) {
+          toast.error("Please verify that you are not a robot");
+          return;
         }
+        const response = await fetch("https://api-company.onebigbit.com/clients/send_msg", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(values)
+        });
+
+        if (response.ok) {
+          toast.success("Details submitted successfully!");
+          resetForm();
+        } else {
+          toast.error("Something went wrong");
+        }
+
+      } catch (error) {
+        console.log("Error", error);
+        //  toast.error("Something went wrong");
+      }
 
 
       console.log(values);
@@ -139,8 +131,8 @@ function Modalpopup({ handleClose, modalOpen }) {
           <div className="action-hamburger last_captcha my-3">
             <div className='captcha'>
               <ReCAPTCHA
-              sitekey='6LdoDvsrAAAAAGAMJQSBNgdMCSdc5d4zVbBDQAbQ'
-                
+                sitekey='6LdoDvsrAAAAAGAMJQSBNgdMCSdc5d4zVbBDQAbQ'
+
                 onChange={handleCaptchaChange}
               />
             </div>
