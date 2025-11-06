@@ -115,7 +115,7 @@ const ContactUs = () => {
                                     alt=""
                                   />
                                 </i>
-                                <Link to={"mailto:miza@m14.tech"} className="list-label">miza@m14.tech</Link>
+                                <Link to={"mailto:mirza@m14.tech"} className="list-label">mirza@m14.tech</Link>
                               </div>
                             </div>
                           </div>
