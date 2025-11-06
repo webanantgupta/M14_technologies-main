@@ -33,6 +33,7 @@ function Modalpopup({ handleClose, modalOpen }) {
           toast.error("Please verify that you are not a robot");
           return;
         }
+        
         const response = await fetch("https://api-company.onebigbit.com/clients/send_msg", {
           method: "POST",
           headers: {
@@ -42,6 +43,7 @@ function Modalpopup({ handleClose, modalOpen }) {
         });
 
         if (response.ok) {
+          setCaptcha(null)
           toast.success("Details submitted successfully!");
           resetForm();
         } else {
