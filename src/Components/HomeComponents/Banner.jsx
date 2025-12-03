@@ -23,7 +23,7 @@ const Banner = () => {
                         src="images/banner/banner-01/banner-bg-01.png"
                         alt="#"
                     />
-                    <div className="desktop"> <h1 className="banner-title " data-scroll
+                    <div className="desktop"> <h1 className="banner-title banner_heading" data-scroll
                         data-scroll-direction="horizontal"
                         data-scroll-speed="2"
                     >M14 <br /> Technologies</h1></div>

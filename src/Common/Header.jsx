@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { useState } from "react";
 import Modalpopup from './Modalpopup';
 import SideMenu from './SideMenu';
@@ -35,15 +35,15 @@ const Header = () => {
 
           <div className="site-menu d-none d-xl-block header_li" style={{ width: "60%" }} >
             <ul className="main-menu">
-              <li className="nav-item active">
-                <Link className="nav-link" to="/">
+              <li className="nav-item ">
+                <NavLink className="" to="/">
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">
+                <NavLink className="" to="/about">
                   About Us
-                </Link>
+                </NavLink>
                 {/* <ul className='submenu'>
                   <li>
                     <Link className='nav-link' to="/about/company-overview">
@@ -63,9 +63,9 @@ const Header = () => {
                 </ul> */}
               </li>
               <li className="nav-item ">
-                <Link className="nav-link " to="/services">
+                <NavLink className=" " to="/services">
                   Services <i className="fa-solid fa-chevron-down" />
-                </Link>
+                </NavLink>
                 <ul className="submenu ">
                   <li>
                     <Link className="nav-link" to="/services/app-development">
@@ -112,9 +112,9 @@ const Header = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#">
+                <NavLink className="" to="/serve/education">
                   Industries We Serve <i className="fa-solid fa-chevron-down" />
-                </Link>
+                </NavLink>
                 <ul className="submenu">
                   <li>
                     <Link className="nav-link" to="/serve/education">
@@ -140,10 +140,9 @@ const Header = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/blog">
+                <NavLink className="" to="/blog">
                   Blog
-
-                </Link>
+                </NavLink>
               </li>
               {/* <li className="nav-item">
                 <Link className="nav-link" to="#">
@@ -163,9 +162,9 @@ const Header = () => {
                 </ul>
               </li> */}
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">
+                <NavLink className="nav-link" to="/contact">
                   Contact Us
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>

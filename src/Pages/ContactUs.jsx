@@ -18,33 +18,34 @@ const ContactUs = () => {
     initialValues: initialValues,
     validationSchema: Formvalidation,
     onSubmit: async (values, { resetForm }) => {
+       toast.success("Details Submitted successfully");
+       resetForm();
       console.log(values);
-      try{
-        const response = await fetch("https://api-company.onebigbit.com/clients/send_msg", {
-          method: "POST",
-          headers: {
-                "Content-Type": "application/json"
-          },
-          body: JSON.stringify(values)
-        });
+      // try{
+      //   const response = await fetch("https://api-company.onebigbit.com/clients/send_msg", {
+      //     method: "POST",
+      //     headers: {
+      //           "Content-Type": "application/json"
+      //     },
+      //     body: JSON.stringify(values)
+      //   });
 
-        if(response.ok){
-      toast.success("Details submitted successfully")
-      resetForm();
-        } else {
-          toast.error("Something went wrong")
-        }
-      } catch(error){
-        console.log("Error", error);
-        toast.error("Something went wrong");
-      } 
+      //   if(response.ok){
+      // toast.success("Details submitted successfully contact us")
+      // resetForm();
+      //   } else {
+      //     toast.error("Something went wrong")
+      //   }
+      // } catch(error){
+      //   console.log("Error", error);
+      //   toast.error("Something went wrong");
+      // } 
        
+      
+
     }
   })
   // console.log(ans);
-
-
-
   return (
     <>
       <div className="site-content">

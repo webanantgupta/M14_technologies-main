@@ -31,7 +31,7 @@ const AllRoutes = () => {
         <>
             <div>
                 <>
-                <Toaster  position='top-center'/>
+                <Toaster  position='top-right'/>
                     <Routes>
                         <Route path='/' element={<Home />} />
                         <Route path='/about' element={<Aboutus />} />

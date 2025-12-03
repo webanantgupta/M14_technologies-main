@@ -1334,7 +1334,7 @@ blockquote.blockquote-style-1:before {
   padding-bottom: 90px !important;
 }
 
-@media (min-width:768px) and (max-width:1500px){
+@media (min-width:768px) and (max-width:1800px){
            .aboutus_image2 img{ 
      margin-top: 50px;
 }
@@ -6017,14 +6017,14 @@ form.form-dark .form-control:focus {
   margin-top: 2px;
 }
 
-.header-default .site-menu .main-menu .nav-item.active>a {
+.header-default .site-menu .main-menu .nav-item .active  {
   color: #77BEFF;
 }
 
 .header-default .site-menu .main-menu .nav-item.active>a:before,
 .header-default .site-menu .main-menu .nav-item:hover>a:before {
   content: "";
-  background-image: url(../images/menu-hover.png);
+  /* background-image: url(../images/menu-hover.png); */
   height: 8px;
   position: absolute;
   bottom: 0;
@@ -7371,6 +7371,18 @@ form.form-dark .form-control:focus {
 }
 }
 
+/* @media (min-width:1998px) and (max-width:1400px){
+  .banner_heading h1{
+     font-size: 100px !important;
+  }
+} */
+/* toast.css */
+[data-sonner-toast], 
+[data-react-hot-toast],
+ .react-hot-toast {
+  z-index: 9999 !important; /* 👈 ensure above modal */
+ } 
+
 
 .main-banner-1 {
   padding-top: 100px;
@@ -7661,7 +7673,7 @@ form.form-dark .form-control:focus {
 
   /* Main Banner 1 ----------*/
   .main-banner-1 .banner-title {
-    font-size: 150px;
+    font-size: 100px;
     line-height: 170px;
   }
 
